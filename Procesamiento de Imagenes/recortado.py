@@ -4,7 +4,7 @@ imagen = cv2.imread("bibliotecas/opencv_tutorial/imagenes/291.jpg", -1) #cambia 
 
 #imagen = cv2.resize(imagen, (0,0), fx = 0.5, fy= 0.5) redimensiono la imagen
 
-imagen_hsv = cv2.cvtColor(imagen, cv2.COLOR_BGR2HSV) #convierto a hsv
+imagen_hsv = cv2.cvtColor(imagen, cv2.COLOR_BGR2HSV) 
 
 #azules
 Azul_oscuroL,Azul_oscuroH = np.array([120,50,50],np.uint8) , np.array([130,255,255],np.uint8)
@@ -80,4 +80,3 @@ for i, imagenes in enumerate(lista_imagenes):
     
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
