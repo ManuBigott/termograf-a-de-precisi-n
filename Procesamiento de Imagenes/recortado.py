@@ -44,7 +44,7 @@ for contorno in contornos: #esta pinga recorre la lista de contornos
     perimetro = cv2.arcLength(contorno, True) #calcula el perimetro de cada contorno
     
 
-    if area >= area_min:    #filtro los contornos por su area
+    if area >= area_min:    #filtro los contornos por su area 
         print(f"Área: {area}, Perímetro: {perimetro:.2f}")
 
         x,y,ancho,altura = cv2.boundingRect(contorno) #obtengo el inicio y final del contorno
@@ -81,4 +81,3 @@ for i, imagenes in enumerate(lista_imagenes):
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
-#te amo john
