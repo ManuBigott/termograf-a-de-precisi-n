@@ -35,23 +35,24 @@ def recortar(nombre):
 
     lista_imagenes = [] 
 
-    ruta = nombre.split(".")[0]+" recortes"
+    ruta = nombre.split(".")[0]
+    carpeta_recortes = os.path.join(ruta, "Recortes")
+    os.makedirs(carpeta_recortes, exist_ok=True)
 
-    try:
-        os.mkdir(ruta)
-    except:
-        pass
-
+    i = 0
+    
     for contorno in contornos: 
 
         #cv2.drawContours(imagen, contorno, -1, (0,255,0), 4) 
 
         area = cv2.contourArea(contorno) 
-        perimetro = cv2.arcLength(contorno, True) 
+
+        #perimetro = cv2.arcLength(contorno, True) 
         
 
         if area >= area_min:     
             #print(f"Área: {area}, Perímetro: {perimetro:.2f}")
+            i += 1
 
             x,y,ancho,altura = cv2.boundingRect(contorno) 
             #print(x,y,ancho,altura)
@@ -59,10 +60,9 @@ def recortar(nombre):
             copia = imagen.copy()
             recorte = copia[y:y+altura, x:x+ancho]
             lista_imagenes.append(copia[y:y+altura, x:x+ancho]) 
-            
-            
-    cv2.imwrite("Procesamiento de imagenes/Prueba", imagen_hsv)
-            
+            archivo = os.path.join(carpeta_recortes, f"recorte {i}.jpg")
+            cv2.imwrite(archivo, recorte)
+ 
     for i, imagenes in enumerate(lista_imagenes):
         
         cv2.imshow(f"imagen {i+1} recortada", imagenes)
