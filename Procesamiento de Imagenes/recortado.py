@@ -1,6 +1,6 @@
 import numpy as np, cv2
 
-imagen = cv2.imread("bibliotecas/opencv_tutorial/imagenes/291.jpg", -1) #cambia la direccion a donde tengas la imagen
+imagen = cv2.imread("Procesamiento de Imagenes/Prueba/291.jpg", -1) #cambia la direccion a donde tengas la imagen
 
 #imagen = cv2.resize(imagen, (0,0), fx = 0.5, fy= 0.5) redimensiono la imagen
 
