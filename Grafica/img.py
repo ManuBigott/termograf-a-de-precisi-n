@@ -3,9 +3,10 @@ import json
 
 
 app = Flask(__name__)
-
+## Se comenzara hacer el menu para la interfaz grafica##
 
 def cargar_base_de_datos():
+    ##leer la base de datos
     try:
        with open('base_de_datos.json', 'r') as f:
            return json.load(f)
@@ -16,10 +17,12 @@ data = cargar_base_de_datos()
 
 @app.route('/')
 def index():
+    ## Principal 
     return render_template('index.html', data=data)
 
 @app.route('/agregar_imagen', methods=['POST'])
 def agregar_imagen():
+    ##Secundario
     maquina = request.form.get('maquina')
     fecha = request.form.get('fecha')
     ruta_imagen = request.form.get('ruta_imagen')
@@ -47,7 +50,8 @@ def agregar_imagen():
     return jsonify({'message': 'Imagen agregada exitosamente'})
 
 @app.route('/ver_imagen', methods=['POST'])
-def ver_imagen():
+def ver_imagen(): 
+    ## Prueba, sin imagenes no funcionara 
     maquina = request.form.get('maquina')
     fecha = request.form.get('fecha')
 
