@@ -1,13 +1,16 @@
 from flask import Flask, render_template, request, jsonify
 import json
-import os
+
 
 app = Flask(__name__)
 
 
 def cargar_base_de_datos():
-    with open('base_de_datos.json', 'r') as f:
-        return json.load(f)
+    try:
+       with open('base_de_datos.json', 'r') as f:
+           return json.load(f)
+    except FileNotFoundError:
+        return {}
 
 data = cargar_base_de_datos()
 
