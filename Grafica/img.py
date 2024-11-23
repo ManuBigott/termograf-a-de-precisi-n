@@ -1,5 +1,7 @@
 from flask import *
 import json
+import pandas as pd
+dec1 = pd.read_csv("dec1.csv")
 
 app = Flask(__name__)
 
