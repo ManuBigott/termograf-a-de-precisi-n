@@ -6,10 +6,6 @@ def promedio(ruta):
     hsv = cv2.cvtColor(imagen, cv2.COLOR_BGR2HSV)
 
 
-    #bajo = np.array([0, 30, 30])
-    #alto = np.array([60, 255, 255])
-
-    #mascara = cv2.inRange(hsv, bajo, alto)
 
     temperatura_minima = 20
     temperatura_max = 100
