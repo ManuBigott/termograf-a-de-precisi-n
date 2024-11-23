@@ -26,9 +26,19 @@
         <li>
             <strong>{{ maquina }}:</strong>
             <ul>
+                {% if 'Especificaciones' in detalles %}
+                    <li>Especificaciones: {{ detalles['Especificaciones'] }}</li>
+                {% endif %}
                 {% if 'fechas' in detalles %}
                     {% for fecha, info in detalles['fechas'].items() %}
-                    <li>Fecha: {{ fecha }}, Temperatura Máquina: {{ info.temperatura_maquina }}°, Temperatura Ambiente: {{ info.temperatura_ambiente }}°</li>
+                    <li>
+                        Fecha: {{ fecha }}, Temperatura Máquina: {{ info['temperatura_maquina'] }}°, Temperatura Ambiente: {{ info['temperatura_ambiente'] }}°
+                        <form action="/ver_imagen" method="get" style="display:inline;">
+                            <input type="hidden" name="maquina" value="{{ maquina }}">
+                            <input type="hidden" name="fecha" value="{{ fecha }}">
+                            <button type="submit">Ver Imagen</button>
+                        </form>
+                    </li>
                     {% endfor %}
                 {% else %}
                     <li>No hay datos de fechas disponibles</li>
@@ -39,3 +49,4 @@
     </ul>
 </body>
 </html>
+
