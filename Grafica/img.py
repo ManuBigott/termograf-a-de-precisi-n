@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import *
 import json
 
 app = Flask(__name__)
@@ -17,12 +17,15 @@ data = cargar_base_de_datos()
 def menu():
     return render_template('menu.html')
 
-@app.route('/ver_maquinas', methods=['GET', 'POST'])
+@app.route('/ver_maquinas', methods=['GET'])
 def ver_maquinas():
     return render_template('index.html', data=data)
 
-@app.route('/agregar_imagen', methods=['POST'])
+@app.route('/agregar_imagen', methods=['POST', 'GET'])
 def agregar_imagen():
+    if request.method == 'GET':
+        return render_template('agregar_imagen.html')
+    
     maquina = request.form.get('maquina')
     fecha = request.form.get('fecha')
     ruta_imagen = request.form.get('ruta_imagen')
@@ -67,4 +70,5 @@ def ver_imagen():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
