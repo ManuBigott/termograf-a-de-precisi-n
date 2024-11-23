@@ -1,6 +1,7 @@
 import os
 from Funcion1 import Datos1
-arch = open("dec.csv","a")
+arch = open("dec1.csv","a")
+arch.write("archivo,40 - 50,30 - 40,20 - 30,0 - 10,%\n")
 for name in os.listdir():
     if ".bmp" in name:
      a,b,c,d,e = Datos1(name)
