@@ -3,23 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Datos de las Máquinas</title>
 </head>
 <body>
     <h1>Máquinas y sus Imágenes</h1>
-    <form action="/agregar_imagen" method="post">
-        <label for="maquina">Máquina:</label>
-        <input type="text" id="maquina" name="maquina" required><br>
-        <label for="fecha">Fecha:</label>
-        <input type="text" id="fecha" name="fecha" required><br>
-        <label for="ruta_imagen">Ruta de la Imagen:</label>
-        <input type="text" id="ruta_imagen" name="ruta_imagen" required><br>
-        <label for="temperatura_maquina">Temperatura de la Máquina:</label>
-        <input type="number" id="temperatura_maquina" name="temperatura_maquina" required><br>
-        <label for="temperatura_ambiente">Temperatura del Ambiente:</label>
-        <input type="number" id="temperatura_ambiente" name="temperatura_ambiente" required><br>
-        <button type="submit">Agregar Imagen</button>
-    </form>
     <h2>Datos de las Máquinas</h2>
     <ul>
         {% for maquina, detalles in data.items() %}
@@ -47,6 +34,7 @@
         </li>
         {% endfor %}
     </ul>
+    <a href="/">Volver al Menú Principal</a>
 </body>
 </html>
 

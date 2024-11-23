@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import json
 
 app = Flask(__name__)
-#Se hizo un cambio en la plantilla index
+## se agrega menu 
 def cargar_base_de_datos():
     # Cargar la base de datos inicial
     try:
@@ -12,9 +12,13 @@ def cargar_base_de_datos():
         return {}
 
 data = cargar_base_de_datos()
-
+## nuevo menuuu 
 @app.route('/')
-def index():
+def menu():
+    return render_template('menu.html')
+
+@app.route('/ver_maquinas')
+def ver_maquinas():
     return render_template('index.html', data=data)
 
 @app.route('/agregar_imagen', methods=['POST'])
