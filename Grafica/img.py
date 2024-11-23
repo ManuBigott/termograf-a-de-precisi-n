@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import json
 
 app = Flask(__name__)
-## se agrega menu 
+
 def cargar_base_de_datos():
     # Cargar la base de datos inicial
     try:
@@ -12,12 +12,12 @@ def cargar_base_de_datos():
         return {}
 
 data = cargar_base_de_datos()
-## nuevo menuuu 
+
 @app.route('/')
 def menu():
     return render_template('menu.html')
 
-@app.route('/ver_maquinas')
+@app.route('/ver_maquinas', methods=['GET', 'POST'])
 def ver_maquinas():
     return render_template('index.html', data=data)
 
@@ -36,8 +36,8 @@ def agregar_imagen():
     fechas = maquina_data.setdefault('fechas', {})
     fechas[fecha] = {
         'imagen': ruta_imagen,
-        'temperatura_maquina': float(temperatura_maquina),
-        'temperatura_ambiente': float(temperatura_ambiente)
+        'temperatura_maquina': int(temperatura_maquina),
+        'temperatura_ambiente': int(temperatura_ambiente)
     }
 
     data[maquina] = maquina_data
@@ -67,3 +67,4 @@ def ver_imagen():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
