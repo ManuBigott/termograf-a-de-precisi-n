@@ -1,12 +1,12 @@
 import json
 import cv2
 import os
-
+import datetime
 def lectura(archivo):
     with open(archivo) as archivo_json:
         datos=json.load(archivo_json)
-        return datos
         print(datos['Maquina_1']['fechas']['10-11-2024']['imagen'])
+        return datos
 def Carpeta_original(archivos):
     carpetas_imagenes=archivos[-1]
     ruta=os.path.abspath(carpetas_imagenes)
@@ -19,7 +19,6 @@ def rutas_carpetas_imagenes(carpetas):
         ruta_elementos_carpetas=ruta_madre+'/'+carpeta
         imagenes_carpeta=nombre_elementos(ruta_elementos_carpetas)
         combo.append(imagenes_carpeta)
-        print(combo,end='\n\n') 
     return combo
 def nombre_elementos(rutas):
     rutas_imagen=[]
@@ -36,8 +35,21 @@ def muestreo(imagenes):
             cv2.imshow("Imagen",imagen)
             cv2.waitKey(0)
         cv2.destroyAllWindows()
-lectura('base_de_datos')
+def cargado(base,imagenes):
+    inicializado='1/1/2023'
+    cont=-1
+    for capitulo in imagenes:
+        for mediciones in capitulo:
+            cont+=1
+            fecha_inicial=datetime.datetime.strptime(inicializado,'%d/%m/%Y')
+            dia=datetime.timedelta(days=cont)
+            fecha_actual=fecha_inicial+dia
+            formato=datetime.datetime.strftime(fecha_actual,'%d/%m/%Y')
+            base['Maquina_1']['fechas'][formato]=mediciones
+    print(base)
+base=lectura('base_de_datos')
 carpetas,ruta_madre=Carpeta_original(os.listdir())
 print(carpetas)
 imagenes=rutas_carpetas_imagenes(carpetas)
 #muestreo(imagenes)
+cargado(base,imagenes)
