@@ -1,0 +1,6 @@
+This folder contains 40 thermal images of a 3-phase induction motor,
+along with their ground truth annotations provided by experts in the laboratory 
+at Babol Noshirvani University of Technology, IRAN.
+The annotations have been made by trained personnel and are considered to be accurate and reliable.
+
+40 thermal images + 40 GTs = 80 total images
