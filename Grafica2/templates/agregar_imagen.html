@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Imagen</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="number"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agregar Imagen</h1>
+    </header>
+    <div class="container">
+        <form action="/agregar_imagen" method="post">
+            <label for="maquina">Máquina:</label>
+            <input type="text" id="maquina" name="maquina" required>
+            <label for="fecha">Fecha (dd/mm/yyyy):</label>
+            <input type="text" id="fecha" name="fecha" required>
+            <label for="ruta_imagen">Ruta de la Imagen:</label>
+            <input type="text" id="ruta_imagen" name="ruta_imagen" required>
+            <label for="temperatura_maquina">Temperatura de la Máquina:</label>
+            <input type="number" id="temperatura_maquina" name="temperatura_maquina" required>
+            <label for="temperatura_ambiente">Temperatura del Ambiente:</label>
+            <input type="number" id="temperatura_ambiente" name="temperatura_ambiente" required>
+            <label for="especificaciones">Especificaciones:</label>
+            <textarea id="especificaciones" name="especificaciones" rows="4" placeholder="Agregar especificaciones aquí..."></textarea>
+            <button type="submit">Agregar Imagen</button>
+        </form>
+        <a href="/">Volver al Menú Principal</a>
+    </div>
+    <footer>
+        <p>Creado por Nicanor Hermoso, Giovanni Omogrosso, Alexander Alvarado, Manuel Morales, Gabriel Torralba y Harold Angarita</p>
+    </footer>
+</body>
+</html>

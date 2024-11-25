@@ -1,0 +1,134 @@
+{
+    "Maquina_1": {
+        "Especificaciones": {},
+        "fechas": {
+            "23/12/2025": {
+                "imagen": "Grafica/static/imaganes/IR_Laser_DB-600x451.jpg.webp",
+                "temperatura_maquina": 50,
+                "temperatura_ambiente": 30
+            },
+            "2/2/2024": {
+                "imagen": "",
+                "temperatura_maquina": 65,
+                "temperatura_ambiente": 28
+            },
+            "3/3/2023": {
+                "imagen": "",
+                "temperatura_maquina": 75,
+                "temperatura_ambiente": 31
+            },
+            "5/5/2022": {
+                "imagen": "",
+                "temperatura_maquina": 73,
+                "temperatura_ambiente": 30,
+                "2021": {
+                    "imagen": "",
+                    "temperatura_maquina": 80,
+                    "temperatura_ambiente": 34
+                }
+            }
+        }
+    },
+    "Maquina_2": {
+        "Especificaciones": {},
+        "fechas": {
+            "2/2/2025": {
+                "imagen": "",
+                "temperatura_maquina": 50,
+                "temperatura_ambiente": 30
+            },
+            "4/4/2024": {
+                "imagen": "",
+                "temperatura_maquina": 65,
+                "temperatura_ambiente": 28
+            },
+            "5/5/2023": {
+                "imagen": "",
+                "temperatura_maquina": 75,
+                "temperatura_ambiente": 31
+            },
+            "6/6/2022": {
+                "imagen": "",
+                "temperatura_maquina": 73,
+                "temperatura_ambiente": 30,
+                "6/6/2021": {
+                    "imagen": "",
+                    "temperatura_maquina": 80,
+                    "temperatura_ambiente": 34
+                }
+            }
+        }
+    },
+    "Maquina_3": {
+        "Especificaciones": {},
+        "fechas": {
+            "6/16/2025": {
+                "imagen": "",
+                "temperatura_maquina": 50,
+                "temperatura_ambiente": 30
+            },
+            "3/6/2024": {
+                "imagen": "",
+                "temperatura_maquina": 65,
+                "temperatura_ambiente": 28
+            },
+            "6/7/2023": {
+                "imagen": "",
+                "temperatura_maquina": 75,
+                "temperatura_ambiente": 31
+            },
+            "21/1/2022": {
+                "imagen": "",
+                "temperatura_maquina": 73,
+                "temperatura_ambiente": 30,
+                "2/2/2021": {
+                    "imagen": "",
+                    "temperatura_maquina": 80,
+                    "temperatura_ambiente": 34
+                }
+            }
+        }
+    },
+    "Maquina_4": {
+        "Especificaciones": {},
+        "fechas": {
+            "2025": {
+                "imagen": "",
+                "temperatura_maquina": 50,
+                "temperatura_ambiente": 30
+            },
+            "2024": {
+                "imagen": "",
+                "temperatura_maquina": 65,
+                "temperatura_ambiente": 28
+            },
+            "2023": {
+                "imagen": "",
+                "temperatura_maquina": 75,
+                "temperatura_ambiente": 31
+            },
+            "2022": {
+                "imagen": "",
+                "temperatura_maquina": 73,
+                "temperatura_ambiente": 30,
+                "2021": {
+                    "imagen": "",
+                    "temperatura_maquina": 80,
+                    "temperatura_ambiente": 34
+                }
+            }
+        }
+    },
+    "091": {
+        "imanes": [
+            {
+                "id": "1222",
+                "tipo": "x"
+            },
+            {
+                "id": "1222",
+                "tipo": "x"
+            }
+        ]
+    }
+}
