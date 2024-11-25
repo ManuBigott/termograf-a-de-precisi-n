@@ -3,39 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú Principal</title>
+    <title>Resultados del Análisis de Imagen</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
             margin: 0;
             padding: 0;
+            text-align: center;
         }
         header {
             background-color: #343a40;
             color: white;
             padding: 10px 0;
-            text-align: center;
         }
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
-            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+        .results {
+            margin-top: 20px;
         }
-        li {
-            margin: 10px 0;
+        .results p {
+            font-size: 18px;
+            margin: 5px 0;
         }
         a {
+            display: inline-block;
             text-decoration: none;
             color: white;
             background-color: #007BFF;
             padding: 10px 20px;
             border-radius: 5px;
+            margin-top: 20px;
             transition: background-color 0.3s ease;
         }
         a:hover {
@@ -54,18 +59,20 @@
 </head>
 <body>
     <header>
-        <h1>Menú Principal</h1>
+        <h1>Resultados del Análisis de Imagen</h1>
     </header>
     <div class="container">
-        <ul>
-            <li><a href="/ver_maquinas">Ver Datos de las Máquinas</a></li>
-            <li><a href="/agregar_imagen">Agregar Imagen</a></li>
-            <li><a href="/seleccionar_maquina_editar">Editar Datos de una Máquina</a></li>
-            <li><a href="/seleccionar_imagen">Procesar Imagen</a></li>
-        </ul>
+        <div class="results">
+            <p><strong>40 - 50:</strong> {{ resultados["40_50"] }}%</p>
+            <p><strong>20 - 30:</strong> {{ resultados["20_30"] }}%</p>
+            <p><strong>0 - 10:</strong> {{ resultados["0_10"] }}%</p>
+            <p><strong>Se analizó:</strong> {{ resultados["analizado"] }}% de la imagen</p>
+        </div>
+        <a href="/">Volver al Menú Principal</a>
     </div>
     <footer>
         <p>Creado por Nicanor Hermoso, Giovanni Omogrosso, Alexander Alvarado, Manuel Morales, Gabriel Torralba y Harold Angarita</p>
     </footer>
 </body>
 </html>
+
