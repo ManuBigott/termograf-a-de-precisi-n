@@ -1,12 +1,12 @@
 import json
 import cv2
 import os
-
+"""
 def lectura(archivo):
     with open(archivo) as archivo_json:
         datos=json.load(archivo_json)
         return datos
-        print(datos['Maquina_1']['fechas']['10-11-2024']['imagen'])
+        print(datos['Maquina_1']['fechas']['10-11-2024']['imagen'])"""
 def Carpeta_original(archivos):
     carpetas_imagenes=archivos[-1]
     ruta=os.path.abspath(carpetas_imagenes)
@@ -34,7 +34,8 @@ def muestreo(imagenes):
             cv2.waitKey(0)
             cv2.destroyAllWindows()
         break    
-lectura('base_de_datos')
+#lectura('base_de_datos')
 carpetas,ruta_madre=Carpeta_original(os.listdir())
 imagenes=rutas_carpetas_imagenes(carpetas)
 muestreo(imagenes)
+#gg
