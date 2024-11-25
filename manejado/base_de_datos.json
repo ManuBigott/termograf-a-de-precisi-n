@@ -1,0 +1,20 @@
+{
+    "maquina 1": {
+        "fechas": {
+            "23/11/": {
+                "imagen": "https://raw.githubusercontent.com/ManuBigott/termografia_de_precision/refs/heads/main/Procesamiento%20de%20Imagenes/Prueba/003.bmp",
+                "temperatura_maquina": 60,
+                "temperatura_ambiente": 42
+            }
+        }
+    },
+    "2 m": {
+        "fechas": {
+            "13/12/04": {
+                "imagen": "https://raw.githubusercontent.com/ManuBigott/termografia_de_precision/refs/heads/main/Procesamiento%20de%20Imagenes/Prueba/005.bmp",
+                "temperatura_maquina": 70,
+                "temperatura_ambiente": 31
+            }
+        }
+    }
+}
