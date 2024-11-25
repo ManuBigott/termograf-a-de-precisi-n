@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8d7da;
+            margin: 0;
+            padding: 0;
+            color: #721c24;
+        }
+        header {
+            background-color: #f5c6cb;
+            color: #721c24;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+            text-align: center;
+        }
+        .error-message {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+            border: 1px solid #f5c6cb;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Error</h1>
+    </header>
+    <div class="container">
+        <div class="error-message">
+            <p>{{ mensaje }}</p>
+            <a href="/">Volver al Menú Principal</a>
+        </div>
+    </div>
+    <footer>
+        <p>Creado por Nicanor Hermoso, Giovanni Omogrosso, Alexander Alvarado, Manuel Morales, Gabriel Torralba y Harold Angarita</p>
+    </footer>
+</body>
+</html>
