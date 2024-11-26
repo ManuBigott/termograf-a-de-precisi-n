@@ -8,7 +8,9 @@ def lectura(archivo):
         print(datos['Maquina_1']['fechas']['10-11-2024']['imagen'])
         return datos
 def Carpeta_original(archivos):
-    carpetas_imagenes=archivos[-1]
+    print(archivos)
+    pos=archivos.index('Thermal image of equipment (Induction Motor) + 40 Ground Truths added')
+    carpetas_imagenes=archivos[pos]
     ruta=os.path.abspath(carpetas_imagenes)
     return os.listdir(carpetas_imagenes),ruta
 def rutas_carpetas_imagenes(carpetas):
@@ -48,10 +50,10 @@ def agregado(base,imagenes):
             base['Maquina_1']['fechas'][formato]={'imagen':mediciones}
     return base
 def cargado(archivo):
-    with open ('base_de_datos','w') as dicc:
+    with open ('manejado/base_de_datos.json','w') as dicc:
         json.dump(base,dicc,indent=4)
         print("Exportado")     
-base=lectura('base_de_datos')
+base=lectura('manejado/base_de_datos.json')
 carpetas,ruta_madre=Carpeta_original(os.listdir())
 print(carpetas)
 imagenes=rutas_carpetas_imagenes(carpetas)
