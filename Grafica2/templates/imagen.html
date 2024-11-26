@@ -41,7 +41,7 @@
             text-align: left;
             margin-top: 20px;
         }
-        a {
+        a, button {
             display: inline-block;
             text-decoration: none;
             color: white;
@@ -50,8 +50,10 @@
             border-radius: 5px;
             margin-top: 20px;
             transition: background-color 0.3s ease;
+            cursor: pointer;
+            border: none;
         }
-        a:hover {
+        a:hover, button:hover {
             background-color: #0056b3;
         }
         footer {
@@ -73,13 +75,18 @@
         <div class="details">
             <p><strong>Máquina:</strong> {{ maquina }}</p>
             <p><strong>Fecha:</strong> {{ fecha }}</p>
-            <img src="{{ ruta_imagen }}" alt="Imagen de la máquina">
+            <img src="{{ url_for('static', filename=ruta_imagen.split('static/')[1]) }}" alt="Imagen de la máquina">
             <p><strong>Temperatura de la Máquina:</strong> {{ imagen_data['temperatura_maquina'] }}°</p>
             <p><strong>Temperatura del Ambiente:</strong> {{ imagen_data['temperatura_ambiente'] }}°</p>
             <div class="especificaciones">
                 <h3>Especificaciones:</h3>
                 <p>{{ especificaciones }}</p>
             </div>
+            <form action="/procesar_imagen" method="get">
+                <input type="hidden" name="maquina" value="{{ maquina }}">
+                <input type="hidden" name="fecha" value="{{ fecha }}">
+                <button type="submit">Procesar Imagen</button>
+            </form>
         </div>
         <a href="/">Volver al Menú Principal</a>
     </div>

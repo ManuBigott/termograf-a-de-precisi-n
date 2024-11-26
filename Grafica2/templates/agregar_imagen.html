@@ -33,7 +33,7 @@
             margin-top: 10px;
             font-weight: bold;
         }
-        input[type="text"], input[type="number"], textarea {
+        input[type="text"], input[type="number"], input[type="file"], textarea {
             width: 100%;
             padding: 10px;
             margin-top: 5px;
@@ -87,13 +87,13 @@
         <h1>Agregar Imagen</h1>
     </header>
     <div class="container">
-        <form action="/agregar_imagen" method="post">
+        <form action="/agregar_imagen" method="post" enctype="multipart/form-data">
             <label for="maquina">Máquina:</label>
             <input type="text" id="maquina" name="maquina" required>
             <label for="fecha">Fecha (dd/mm/yyyy):</label>
             <input type="text" id="fecha" name="fecha" required>
-            <label for="ruta_imagen">Ruta de la Imagen:</label>
-            <input type="text" id="ruta_imagen" name="ruta_imagen" required>
+            <label for="ruta_imagen">Imagen:</label>
+            <input type="file" id="ruta_imagen" name="ruta_imagen" required>
             <label for="temperatura_maquina">Temperatura de la Máquina:</label>
             <input type="number" id="temperatura_maquina" name="temperatura_maquina" required>
             <label for="temperatura_ambiente">Temperatura del Ambiente:</label>
