@@ -1,7 +1,7 @@
 import os
-from Recortado1 import recortador
+from funcion2 import recortar
 for name in os.listdir():
     if ".bmp" in name:
-     recortador(name)
+     recortar(name)
     else:
         pass
