@@ -1,0 +1,1469 @@
+{
+    "Maquina_1": {
+        "Especificaciones": {},
+        "fechas": {
+            "10-11-2024": {
+                "imagen": "Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/292.bmp",
+                "temperatura_maquina": 50,
+                "tempetura_ambiente": 30
+            },
+            "11-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 65,
+                "tempetura_ambiente": 28
+            },
+            "12-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 75,
+                "tempetura_ambiente": 31
+            },
+            "13-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 73,
+                "tempetura_ambiente": 30,
+                "14-11-2024": {
+                    "imagen": "",
+                    "temperatura_maquina": 80,
+                    "tempetura_ambiente": 34
+                }
+            },
+            "01/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/291.bmp"
+            },
+            "02/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/292.bmp"
+            },
+            "03/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/293.bmp"
+            },
+            "04/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/294.bmp"
+            },
+            "05/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/295.bmp"
+            },
+            "06/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/296.bmp"
+            },
+            "07/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/297.bmp"
+            },
+            "08/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/298.bmp"
+            },
+            "09/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/299.bmp"
+            },
+            "10/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/300.bmp"
+            },
+            "11/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/301.bmp"
+            },
+            "12/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/302.bmp"
+            },
+            "13/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/303.bmp"
+            },
+            "14/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/304.bmp"
+            },
+            "15/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/305.bmp"
+            },
+            "16/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/306.bmp"
+            },
+            "17/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/307.bmp"
+            },
+            "18/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/308.bmp"
+            },
+            "19/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/309.bmp"
+            },
+            "20/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/310.bmp"
+            },
+            "21/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/311.bmp"
+            },
+            "22/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/312.bmp"
+            },
+            "23/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/313.bmp"
+            },
+            "24/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/314.bmp"
+            },
+            "25/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/315.bmp"
+            },
+            "26/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/316.bmp"
+            },
+            "27/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/317.bmp"
+            },
+            "28/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/318.bmp"
+            },
+            "29/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/319.bmp"
+            },
+            "30/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/320.bmp"
+            },
+            "31/01/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/321.bmp"
+            },
+            "01/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/322.bmp"
+            },
+            "02/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/323.bmp"
+            },
+            "03/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/324.bmp"
+            },
+            "04/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/325.bmp"
+            },
+            "05/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/326.bmp"
+            },
+            "06/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/327.bmp"
+            },
+            "07/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/328.bmp"
+            },
+            "08/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/099.bmp"
+            },
+            "09/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/100.bmp"
+            },
+            "10/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/101.bmp"
+            },
+            "11/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/102.bmp"
+            },
+            "12/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/103.bmp"
+            },
+            "13/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/104.bmp"
+            },
+            "14/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/106.bmp"
+            },
+            "15/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/107.bmp"
+            },
+            "16/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/108.bmp"
+            },
+            "17/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/109.bmp"
+            },
+            "18/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/110.bmp"
+            },
+            "19/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/111.bmp"
+            },
+            "20/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/112.bmp"
+            },
+            "21/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/113.bmp"
+            },
+            "22/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/114.bmp"
+            },
+            "23/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/115.bmp"
+            },
+            "24/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/116.bmp"
+            },
+            "25/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/117.bmp"
+            },
+            "26/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/118.bmp"
+            },
+            "27/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/119.bmp"
+            },
+            "28/02/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/120.bmp"
+            },
+            "01/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/121.bmp"
+            },
+            "02/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/122.bmp"
+            },
+            "03/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/123.bmp"
+            },
+            "04/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/124.bmp"
+            },
+            "05/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/125.bmp"
+            },
+            "06/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/126.bmp"
+            },
+            "07/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/127.bmp"
+            },
+            "08/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/128.bmp"
+            },
+            "09/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/129.bmp"
+            },
+            "10/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B10/130.bmp"
+            },
+            "11/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/214.bmp"
+            },
+            "12/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/215.bmp"
+            },
+            "13/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/216.bmp"
+            },
+            "14/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/217.bmp"
+            },
+            "15/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/218.bmp"
+            },
+            "16/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/219.bmp"
+            },
+            "17/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/220.bmp"
+            },
+            "18/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/221.bmp"
+            },
+            "19/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/222.bmp"
+            },
+            "20/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/223.bmp"
+            },
+            "21/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/224.bmp"
+            },
+            "22/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/225.bmp"
+            },
+            "23/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/226.bmp"
+            },
+            "24/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/227.bmp"
+            },
+            "25/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/228.bmp"
+            },
+            "26/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/229.bmp"
+            },
+            "27/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/230.bmp"
+            },
+            "28/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/231.bmp"
+            },
+            "29/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/232.bmp"
+            },
+            "30/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/233.bmp"
+            },
+            "31/03/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/234.bmp"
+            },
+            "01/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/235.bmp"
+            },
+            "02/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/236.bmp"
+            },
+            "03/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/237.bmp"
+            },
+            "04/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/238.bmp"
+            },
+            "05/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/239.bmp"
+            },
+            "06/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/240.bmp"
+            },
+            "07/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/241.bmp"
+            },
+            "08/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/242.bmp"
+            },
+            "09/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/243.bmp"
+            },
+            "10/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/244.bmp"
+            },
+            "11/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/245.bmp"
+            },
+            "12/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/246.bmp"
+            },
+            "13/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/247.bmp"
+            },
+            "14/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/248.bmp"
+            },
+            "15/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/249.bmp"
+            },
+            "16/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/250.bmp"
+            },
+            "17/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/251.bmp"
+            },
+            "18/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/252.bmp"
+            },
+            "19/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/253.bmp"
+            },
+            "20/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/254.bmp"
+            },
+            "21/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C&B30/255.bmp"
+            },
+            "22/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/066.bmp"
+            },
+            "23/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/067.bmp"
+            },
+            "24/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/068.bmp"
+            },
+            "25/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/069.bmp"
+            },
+            "26/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/070.bmp"
+            },
+            "27/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/071.bmp"
+            },
+            "28/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/072.bmp"
+            },
+            "29/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/073.bmp"
+            },
+            "30/04/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/074.bmp"
+            },
+            "01/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/075.bmp"
+            },
+            "02/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/076.bmp"
+            },
+            "03/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/077.bmp"
+            },
+            "04/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/078.bmp"
+            },
+            "05/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/079.bmp"
+            },
+            "06/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/080.bmp"
+            },
+            "07/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/081.bmp"
+            },
+            "08/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/082.bmp"
+            },
+            "09/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/083.bmp"
+            },
+            "10/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/084.bmp"
+            },
+            "11/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/085.bmp"
+            },
+            "12/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/086.bmp"
+            },
+            "13/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/087.bmp"
+            },
+            "14/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/088.bmp"
+            },
+            "15/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/089.bmp"
+            },
+            "16/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/090.bmp"
+            },
+            "17/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/091.bmp"
+            },
+            "18/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/092.bmp"
+            },
+            "19/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/093.bmp"
+            },
+            "20/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/094.bmp"
+            },
+            "21/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/095.bmp"
+            },
+            "22/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C10/096.bmp"
+            },
+            "23/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/173.bmp"
+            },
+            "24/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/174.bmp"
+            },
+            "25/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/175.bmp"
+            },
+            "26/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/176.bmp"
+            },
+            "27/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/177.bmp"
+            },
+            "28/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/178.bmp"
+            },
+            "29/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/179.bmp"
+            },
+            "30/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/180.bmp"
+            },
+            "31/05/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/181.bmp"
+            },
+            "01/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/182.bmp"
+            },
+            "02/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/183.bmp"
+            },
+            "03/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/184.bmp"
+            },
+            "04/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/185.bmp"
+            },
+            "05/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/186.bmp"
+            },
+            "06/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/187.bmp"
+            },
+            "07/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/188.bmp"
+            },
+            "08/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/189.bmp"
+            },
+            "09/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/190.bmp"
+            },
+            "10/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/191.bmp"
+            },
+            "11/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/192.bmp"
+            },
+            "12/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/193.bmp"
+            },
+            "13/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/194.bmp"
+            },
+            "14/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/195.bmp"
+            },
+            "15/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/196.bmp"
+            },
+            "16/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/197.bmp"
+            },
+            "17/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/198.bmp"
+            },
+            "18/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/199.bmp"
+            },
+            "19/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/200.bmp"
+            },
+            "20/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/201.bmp"
+            },
+            "21/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/202.bmp"
+            },
+            "22/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/203.bmp"
+            },
+            "23/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/204.bmp"
+            },
+            "24/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/205.bmp"
+            },
+            "25/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/206.bmp"
+            },
+            "26/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/207.bmp"
+            },
+            "27/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/208.bmp"
+            },
+            "28/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/209.bmp"
+            },
+            "29/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&C30/210.bmp"
+            },
+            "30/06/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/032.bmp"
+            },
+            "01/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/033.bmp"
+            },
+            "02/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/034.bmp"
+            },
+            "03/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/035.bmp"
+            },
+            "04/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/036.bmp"
+            },
+            "05/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/037.bmp"
+            },
+            "06/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/038.bmp"
+            },
+            "07/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/039.bmp"
+            },
+            "08/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/040.bmp"
+            },
+            "09/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/041.bmp"
+            },
+            "10/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/042.bmp"
+            },
+            "11/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/043.bmp"
+            },
+            "12/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/044.bmp"
+            },
+            "13/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/045.bmp"
+            },
+            "14/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/046.bmp"
+            },
+            "15/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/047.bmp"
+            },
+            "16/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/048.bmp"
+            },
+            "17/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/049.bmp"
+            },
+            "18/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/050.bmp"
+            },
+            "19/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/051.bmp"
+            },
+            "20/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/052.bmp"
+            },
+            "21/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/053.bmp"
+            },
+            "22/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/054.bmp"
+            },
+            "23/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/055.bmp"
+            },
+            "24/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/056.bmp"
+            },
+            "25/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/057.bmp"
+            },
+            "26/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/058.bmp"
+            },
+            "27/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/059.bmp"
+            },
+            "28/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/060.bmp"
+            },
+            "29/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/061.bmp"
+            },
+            "30/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/062.bmp"
+            },
+            "31/07/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/063.bmp"
+            },
+            "01/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/064.bmp"
+            },
+            "02/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A10/065.bmp"
+            },
+            "03/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/133.bmp"
+            },
+            "04/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/134.bmp"
+            },
+            "05/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/135.bmp"
+            },
+            "06/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/136.bmp"
+            },
+            "07/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/137.bmp"
+            },
+            "08/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/138.bmp"
+            },
+            "09/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/139.bmp"
+            },
+            "10/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/140.bmp"
+            },
+            "11/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/141.bmp"
+            },
+            "12/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/142.bmp"
+            },
+            "13/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/143.bmp"
+            },
+            "14/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/144.bmp"
+            },
+            "15/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/145.bmp"
+            },
+            "16/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/146.bmp"
+            },
+            "17/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/147.bmp"
+            },
+            "18/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/148.bmp"
+            },
+            "19/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/149.bmp"
+            },
+            "20/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/150.bmp"
+            },
+            "21/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/151.bmp"
+            },
+            "22/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/152.bmp"
+            },
+            "23/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/153.bmp"
+            },
+            "24/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/154.bmp"
+            },
+            "25/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/155.bmp"
+            },
+            "26/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/156.bmp"
+            },
+            "27/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/157.bmp"
+            },
+            "28/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/158.bmp"
+            },
+            "29/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/159.bmp"
+            },
+            "30/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/160.bmp"
+            },
+            "31/08/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/161.bmp"
+            },
+            "01/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/162.bmp"
+            },
+            "02/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/163.bmp"
+            },
+            "03/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/164.bmp"
+            },
+            "04/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/165.bmp"
+            },
+            "05/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/166.bmp"
+            },
+            "06/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/167.bmp"
+            },
+            "07/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/168.bmp"
+            },
+            "08/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A30/169.bmp"
+            },
+            "09/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/256.bmp"
+            },
+            "10/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/257.bmp"
+            },
+            "11/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/258.bmp"
+            },
+            "12/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/259.bmp"
+            },
+            "13/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/260.bmp"
+            },
+            "14/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/261.bmp"
+            },
+            "15/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/262.bmp"
+            },
+            "16/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/263.bmp"
+            },
+            "17/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/264.bmp"
+            },
+            "18/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/265.bmp"
+            },
+            "19/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/266.bmp"
+            },
+            "20/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/267.bmp"
+            },
+            "21/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/268.bmp"
+            },
+            "22/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/269.bmp"
+            },
+            "23/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/270.bmp"
+            },
+            "24/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/271.bmp"
+            },
+            "25/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/272.bmp"
+            },
+            "26/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/273.bmp"
+            },
+            "27/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/274.bmp"
+            },
+            "28/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/275.bmp"
+            },
+            "29/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/276.bmp"
+            },
+            "30/09/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/277.bmp"
+            },
+            "01/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/278.bmp"
+            },
+            "02/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/279.bmp"
+            },
+            "03/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/280.bmp"
+            },
+            "04/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/281.bmp"
+            },
+            "05/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/282.bmp"
+            },
+            "06/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/283.bmp"
+            },
+            "07/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/284.bmp"
+            },
+            "08/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/285.bmp"
+            },
+            "09/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/286.bmp"
+            },
+            "10/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/287.bmp"
+            },
+            "11/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/288.bmp"
+            },
+            "12/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/289.bmp"
+            },
+            "13/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A50/290.bmp"
+            },
+            "14/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f068.bmp"
+            },
+            "15/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f069.bmp"
+            },
+            "16/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f070.bmp"
+            },
+            "17/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f071.bmp"
+            },
+            "18/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f072.bmp"
+            },
+            "19/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f073.bmp"
+            },
+            "20/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f074.bmp"
+            },
+            "21/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f075.bmp"
+            },
+            "22/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f076.bmp"
+            },
+            "23/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f077.bmp"
+            },
+            "24/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f078.bmp"
+            },
+            "25/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f079.bmp"
+            },
+            "26/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f080.bmp"
+            },
+            "27/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f081.bmp"
+            },
+            "28/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f082.bmp"
+            },
+            "29/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f083.bmp"
+            },
+            "30/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f084.bmp"
+            },
+            "31/10/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f085.bmp"
+            },
+            "01/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f086.bmp"
+            },
+            "02/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f087.bmp"
+            },
+            "03/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f088.bmp"
+            },
+            "04/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f089.bmp"
+            },
+            "05/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f090.bmp"
+            },
+            "06/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f091.bmp"
+            },
+            "07/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f092.bmp"
+            },
+            "08/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f093.bmp"
+            },
+            "09/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f094.bmp"
+            },
+            "10/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f095.bmp"
+            },
+            "11/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/002.bmp"
+            },
+            "12/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/003.bmp"
+            },
+            "13/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/004.bmp"
+            },
+            "14/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/005.bmp"
+            },
+            "15/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/006.bmp"
+            },
+            "16/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/007.bmp"
+            },
+            "17/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/008.bmp"
+            },
+            "18/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/009.bmp"
+            },
+            "19/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/010.bmp"
+            },
+            "20/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/011.bmp"
+            },
+            "21/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/012.bmp"
+            },
+            "22/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/013.bmp"
+            },
+            "23/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/014.bmp"
+            },
+            "24/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/015.bmp"
+            },
+            "25/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/016.bmp"
+            },
+            "26/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/017.bmp"
+            },
+            "27/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/018.bmp"
+            },
+            "28/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/019.bmp"
+            },
+            "29/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/020.bmp"
+            },
+            "30/11/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/021.bmp"
+            },
+            "01/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/022.bmp"
+            },
+            "02/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/023.bmp"
+            },
+            "03/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/024.bmp"
+            },
+            "04/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/025.bmp"
+            },
+            "05/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Noload/026.bmp"
+            },
+            "06/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r030.bmp"
+            },
+            "07/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r031.bmp"
+            },
+            "08/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r032.bmp"
+            },
+            "09/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r033.bmp"
+            },
+            "10/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r034.bmp"
+            },
+            "11/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r035.bmp"
+            },
+            "12/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r036.bmp"
+            },
+            "13/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r037.bmp"
+            },
+            "14/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r038.bmp"
+            },
+            "15/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r039.bmp"
+            },
+            "16/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r040.bmp"
+            },
+            "17/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r041.bmp"
+            },
+            "18/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r042.bmp"
+            },
+            "19/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r043.bmp"
+            },
+            "20/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r044.bmp"
+            },
+            "21/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r045.bmp"
+            },
+            "22/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r046.bmp"
+            },
+            "23/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r047.bmp"
+            },
+            "24/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r048.bmp"
+            },
+            "25/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r049.bmp"
+            },
+            "26/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r050.bmp"
+            },
+            "27/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r051.bmp"
+            },
+            "28/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r052.bmp"
+            },
+            "29/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r053.bmp"
+            },
+            "30/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r054.bmp"
+            },
+            "31/12/2023": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r055.bmp"
+            },
+            "01/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r056.bmp"
+            },
+            "02/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r057.bmp"
+            },
+            "03/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r058.bmp"
+            },
+            "04/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Rotor-0/r059.bmp"
+            },
+            "05/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/017.bmp"
+            },
+            "06/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/017.tiff"
+            },
+            "07/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/018.bmp"
+            },
+            "08/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/018.tiff"
+            },
+            "09/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/019.bmp"
+            },
+            "10/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/019.tiff"
+            },
+            "11/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/020.bmp"
+            },
+            "12/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/020.tiff"
+            },
+            "13/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/021.bmp"
+            },
+            "14/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/021.tiff"
+            },
+            "15/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/160.bmp"
+            },
+            "16/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/160.tiff"
+            },
+            "17/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/161.bmp"
+            },
+            "18/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/161.tiff"
+            },
+            "19/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/162.bmp"
+            },
+            "20/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/162.tiff"
+            },
+            "21/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/163.bmp"
+            },
+            "22/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/163.tiff"
+            },
+            "23/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/164.bmp"
+            },
+            "24/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/164.tiff"
+            },
+            "25/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/201.bmp"
+            },
+            "26/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/201.tiff"
+            },
+            "27/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/202.bmp"
+            },
+            "28/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/202.tiff"
+            },
+            "29/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/203.bmp"
+            },
+            "30/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/203.tiff"
+            },
+            "31/01/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/204.bmp"
+            },
+            "01/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/204.tiff"
+            },
+            "02/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/205.bmp"
+            },
+            "03/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/205.tiff"
+            },
+            "04/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/246.bmp"
+            },
+            "05/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/246.tiff"
+            },
+            "06/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/247.bmp"
+            },
+            "07/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/247.tiff"
+            },
+            "08/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/248.bmp"
+            },
+            "09/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/248.tiff"
+            },
+            "10/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/249.bmp"
+            },
+            "11/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/249.tiff"
+            },
+            "12/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/250.bmp"
+            },
+            "13/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/250.tiff"
+            },
+            "14/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/281.bmp"
+            },
+            "15/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/281.tiff"
+            },
+            "16/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/282.bmp"
+            },
+            "17/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/282.tiff"
+            },
+            "18/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/283.bmp"
+            },
+            "19/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/283.tiff"
+            },
+            "20/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/284.bmp"
+            },
+            "21/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/284.tiff"
+            },
+            "22/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/285.bmp"
+            },
+            "23/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/285.tiff"
+            },
+            "24/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/319.bmp"
+            },
+            "25/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/319.tiff"
+            },
+            "26/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/320.bmp"
+            },
+            "27/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/320.tiff"
+            },
+            "28/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/321.bmp"
+            },
+            "29/02/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/321.tiff"
+            },
+            "01/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/322.bmp"
+            },
+            "02/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/322.tiff"
+            },
+            "03/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/323.bmp"
+            },
+            "04/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/323.tiff"
+            },
+            "05/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/f086.bmp"
+            },
+            "06/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/f086.tiff"
+            },
+            "07/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/f087.bmp"
+            },
+            "08/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/f087.tiff"
+            },
+            "09/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/f088.bmp"
+            },
+            "10/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/f088.tiff"
+            },
+            "11/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/f089.bmp"
+            },
+            "12/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/f089.tiff"
+            },
+            "13/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/f090.bmp"
+            },
+            "14/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/f090.tiff"
+            },
+            "15/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/r050.bmp"
+            },
+            "16/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/r050.tiff"
+            },
+            "17/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/r051.bmp"
+            },
+            "18/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/r051.tiff"
+            },
+            "19/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/r052.bmp"
+            },
+            "20/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/r052.tiff"
+            },
+            "21/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/r053.bmp"
+            },
+            "22/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/r053.tiff"
+            },
+            "23/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/r054.bmp"
+            },
+            "24/03/2024": {
+                "imagen": "C:\\Users\\Usuario\\OneDrive\\Desktop\\PROYECTO\\Termograf-a\\MANEJADO\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Subset_40_Thermal_GT/r054.tiff"
+            }
+        }
+    },
+    "Maquina_2": {
+        "Especificaciones": {},
+        "fechas": {
+            "10-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 50,
+                "tempetura_ambiente": 30
+            },
+            "11-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 65,
+                "tempetura_ambiente": 28
+            },
+            "12-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 75,
+                "tempetura_ambiente": 31
+            },
+            "13-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 73,
+                "tempetura_ambiente": 30,
+                "14-11-2024": {
+                    "imagen": "",
+                    "temperatura_maquina": 80,
+                    "tempetura_ambiente": 34
+                }
+            }
+        }
+    },
+    "Maquina_3": {
+        "Especificaciones": {},
+        "fechas": {
+            "10-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 50,
+                "tempetura_ambiente": 30
+            },
+            "11-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 65,
+                "tempetura_ambiente": 28
+            },
+            "12-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 75,
+                "tempetura_ambiente": 31
+            },
+            "13-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 73,
+                "tempetura_ambiente": 30,
+                "14-11-2024": {
+                    "imagen": "",
+                    "temperatura_maquina": 80,
+                    "tempetura_ambiente": 34
+                }
+            }
+        }
+    },
+    "Maquina_4": {
+        "Especificaciones": {},
+        "fechas": {
+            "10-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 50,
+                "tempetura_ambiente": 30
+            },
+            "11-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 65,
+                "tempetura_ambiente": 28
+            },
+            "12-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 75,
+                "tempetura_ambiente": 31
+            },
+            "13-11-2024": {
+                "imagen": "",
+                "temperatura_maquina": 73,
+                "tempetura_ambiente": 30,
+                "14-11-2024": {
+                    "imagen": "",
+                    "temperatura_maquina": 80,
+                    "tempetura_ambiente": 34
+                }
+            }
+        }
+    }
+}
