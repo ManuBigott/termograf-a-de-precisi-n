@@ -48,10 +48,10 @@ def agregado(base,imagenes):
             base['Maquina_1']['fechas'][formato]={'imagen':mediciones}
     return base
 def cargado(archivo):
-    with open ('base_de_datos','w') as dicc:
+    with open ('base_de_datos.json','w') as dicc:
         json.dump(base,dicc,indent=4)
         print("Exportado")     
-base=lectura('base_de_datos')
+base=lectura('base_de_datos.json')
 carpetas,ruta_madre=Carpeta_original(os.listdir())
 print(carpetas)
 imagenes=rutas_carpetas_imagenes(carpetas)
