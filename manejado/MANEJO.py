@@ -8,6 +8,7 @@ def lectura(archivo):
         print(datos['Maquina_1']['fechas']['10-11-2024']['imagen'])
         return datos
 def Carpeta_original(archivos):
+    print(archivos)
     pos=archivos.index('Thermal image of equipment (Induction Motor) + 40 Ground Truths added')
     carpetas_imagenes=archivos[pos]
     ruta=os.path.abspath(carpetas_imagenes)

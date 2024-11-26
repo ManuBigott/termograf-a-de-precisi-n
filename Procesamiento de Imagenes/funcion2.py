@@ -1,8 +1,6 @@
 import cv2, numpy as np, os
-def recortar(nombre):
-    imagen = cv2.imread(nombre, -1) 
-
-    #imagen = cv2.resize(imagen, (0,0), fx = 0.5, fy= 0.5) redimensiono la imagen
+def recortar(ruta):
+    imagen = cv2.imread(ruta, -1) 
 
     imagen_hsv = cv2.cvtColor(imagen, cv2.COLOR_BGR2HSV) 
 
@@ -28,46 +26,30 @@ def recortar(nombre):
 
     mask = cv2.inRange(imagen_hsv, NaranjaL, NaranjaH) #aplico la mascara
 
-    contornos, jerarquia= cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    contornos, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     
-
     area_min = 5000 
 
     lista_imagenes = [] 
 
-    ruta = nombre.split(".")[0]
-    carpeta_recortes = os.path.join(ruta, "Recortes")
-    os.makedirs(carpeta_recortes, exist_ok=True)
-
-    i = 0
-    
     for contorno in contornos: 
-
-        #cv2.drawContours(imagen, contorno, -1, (0,255,0), 4) 
 
         area = cv2.contourArea(contorno) 
 
-        #perimetro = cv2.arcLength(contorno, True) 
-        
-
         if area >= area_min:     
-            #print(f"Área: {area}, Perímetro: {perimetro:.2f}")
-            i += 1
+            
 
             x,y,ancho,altura = cv2.boundingRect(contorno) 
-            #print(x,y,ancho,altura)
             
             copia = imagen.copy()
             recorte = copia[y:y+altura, x:x+ancho]
-            lista_imagenes.append(copia[y:y+altura, x:x+ancho]) 
-            archivo = os.path.join(carpeta_recortes, f"recorte {i}.jpg")
-            cv2.imwrite(archivo, recorte)
+            lista_imagenes.append(recorte) 
+            
  
     for i, imagenes in enumerate(lista_imagenes):
-        
-        cv2.imshow(f"imagen {i+1} recortada", imagenes)
-
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+        imagenes = cv2.resize(imagenes, (0,0), fx=1.5, fy=1.5)
+        cv2.imwrite(f'Recortes/{ruta}.bmp',imagenes)
+        #cv2.imshow(f"{ruta}:{i+1}", imagenes)
+        #cv2.waitKey(0)  #Decimos cuanto tiempo va a durar la imagen, si colocamos 0 sera por un tiempo indefinido.
+        #cv2.destroyAllWindows()
     
-print(recortar("Procesamiento de Imagenes/Prueba/291.jpg"))
