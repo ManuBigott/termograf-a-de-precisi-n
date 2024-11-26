@@ -53,8 +53,21 @@ def escalador(ruta_imagen):
     Rojo_intensoL, Rojo_intensoH = np.array([120, 50, 50], np.uint8), np.array([130, 255, 255], np.uint8)
 
     img = cv2.imread(ruta_imagen, -1)
-    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    if img is None:
+        print('No se pudo leer la imagen desde la ruta:', ruta_imagen)
+        return {'error': 'No se pudo leer la imagen'}
+    print('Imagen leída correctamente')
 
+    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    print('Conversión a HSV realizada')
+
+    # Resto del código...
+    print(f'Tamaño de la máscara: {T}')
+    analizado = ((a + b + c) / (T[0] * T[1])) * 100
+    print(f'Valor de analizado: {analizado}')
+
+    if analizado == 0:
+        print('Error en el cálculo del valor analizado')
     mask = cv2.inRange(hsv, RojoL, RojoH)
     mask1 = cv2.inRange(hsv, AmarilloL, AmarilloH)
     mask2 = cv2.inRange(hsv, CianL, CianH)
@@ -88,13 +101,13 @@ def escalador(ruta_imagen):
     a = T[0] * T[1] - a1
     b = T[0] * T[1] - b1
     c = T[0] * T[1] - c1
-
     return {
         "40_50": (a / (a + b + c)) * 100,
         "20_30": (b / (a + b + c)) * 100,
         "0_10": (c / (a + b + c)) * 100,
-        "analizado": ((a + b + c) / (T[0] * T[1])) * 100
+        "analizado": analizado
     }
+
 # Nueva ruta para procesar una imagen y obtener los resultados del análisis
 @app.route('/procesar_imagen', methods=['GET'])
 def procesar_imagen():
