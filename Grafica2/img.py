@@ -42,7 +42,7 @@ def seleccionar_imagen():
     """Renderiza la página para seleccionar la imagen a procesar"""
     return render_template('seleccionar_imagen.html', data=data)
 
-def escalador(ruta):
+def escalador(ruta_imagen):
     Azul_oscuroL, Azul_oscuroH = np.array([120, 50, 50], np.uint8), np.array([130, 255, 255], np.uint8)
     AzulL, AzulH = np.array([180, 50, 50], np.uint8), np.array([190, 255, 255], np.uint8)
     CianL, CianH = np.array([75, 50, 50], np.uint8), np.array([85, 255, 255], np.uint8)
@@ -52,7 +52,7 @@ def escalador(ruta):
     RojoL, RojoH = np.array([0, 50, 50], np.uint8), np.array([10, 255, 255], np.uint8)
     Rojo_intensoL, Rojo_intensoH = np.array([120, 50, 50], np.uint8), np.array([130, 255, 255], np.uint8)
 
-    img = cv2.imread(ruta, -1)
+    img = cv2.imread(ruta_imagen, -1)
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
     mask = cv2.inRange(hsv, RojoL, RojoH)
