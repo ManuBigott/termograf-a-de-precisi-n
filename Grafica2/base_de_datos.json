@@ -1,134 +1,158 @@
 {
     "Maquina_1": {
-        "Especificaciones": {},
+        "Especificaciones": {
+            "modelo": "A1",
+            "fabricante": "ACME",
+            "capacidad": "1000 unidades/hora"
+        },
         "fechas": {
             "23/12/2025": {
-                "imagen": "Grafica/static/imaganes/IR_Laser_DB-600x451.jpg.webp",
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 50,
                 "temperatura_ambiente": 30
             },
-            "2/2/2024": {
-                "imagen": "",
+            "02/02/2024": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 65,
                 "temperatura_ambiente": 28
             },
-            "3/3/2023": {
-                "imagen": "",
+            "03/03/2023": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 75,
                 "temperatura_ambiente": 31
             },
-            "5/5/2022": {
-                "imagen": "",
+            "05/05/2022": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 73,
-                "temperatura_ambiente": 30,
-                "2021": {
-                    "imagen": "",
-                    "temperatura_maquina": 80,
-                    "temperatura_ambiente": 34
-                }
+                "temperatura_ambiente": 30
             }
         }
     },
     "Maquina_2": {
-        "Especificaciones": {},
+        "Especificaciones": {
+            "modelo": "A2",
+            "fabricante": "ACME",
+            "capacidad": "2000 unidades/hora"
+        },
         "fechas": {
-            "2/2/2025": {
-                "imagen": "",
+            "02/02/2025": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 50,
                 "temperatura_ambiente": 30
             },
-            "4/4/2024": {
-                "imagen": "",
+            "04/04/2024": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 65,
                 "temperatura_ambiente": 28
             },
-            "5/5/2023": {
-                "imagen": "",
+            "05/05/2023": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 75,
                 "temperatura_ambiente": 31
             },
-            "6/6/2022": {
-                "imagen": "",
+            "06/06/2022": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 73,
-                "temperatura_ambiente": 30,
-                "6/6/2021": {
-                    "imagen": "",
-                    "temperatura_maquina": 80,
-                    "temperatura_ambiente": 34
-                }
+                "temperatura_ambiente": 30
             }
         }
     },
     "Maquina_3": {
-        "Especificaciones": {},
+        "Especificaciones": {
+            "modelo": "B1",
+            "fabricante": "ABC",
+            "capacidad": "1500 unidades/hora"
+        },
         "fechas": {
-            "6/16/2025": {
-                "imagen": "",
+            "16/06/2025": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 50,
                 "temperatura_ambiente": 30
             },
-            "3/6/2024": {
-                "imagen": "",
+            "06/03/2024": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 65,
                 "temperatura_ambiente": 28
             },
-            "6/7/2023": {
-                "imagen": "",
+            "07/06/2023": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 75,
                 "temperatura_ambiente": 31
             },
-            "21/1/2022": {
-                "imagen": "",
+            "21/01/2022": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 73,
-                "temperatura_ambiente": 30,
-                "2/2/2021": {
-                    "imagen": "",
-                    "temperatura_maquina": 80,
-                    "temperatura_ambiente": 34
-                }
+                "temperatura_ambiente": 30
             }
         }
     },
     "Maquina_4": {
-        "Especificaciones": {},
+        "Especificaciones": {
+            "modelo": "B2",
+            "fabricante": "ABC",
+            "capacidad": "2500 unidades/hora"
+        },
         "fechas": {
-            "2025": {
-                "imagen": "",
+            "09/09/2025": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 50,
                 "temperatura_ambiente": 30
             },
-            "2024": {
-                "imagen": "",
+            "08/08/2024": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 65,
                 "temperatura_ambiente": 28
             },
-            "2023": {
-                "imagen": "",
+            "06/05/2023": {
+                "imagen": "static/IR_Laser_DB-600x451.jpg.webp",
                 "temperatura_maquina": 75,
                 "temperatura_ambiente": 31
             },
-            "2022": {
-                "imagen": "",
+            "04/03/2022": {
+                "imagen": "static/Thermography-Threshold-752x277.jpg",
                 "temperatura_maquina": 73,
-                "temperatura_ambiente": 30,
-                "2021": {
-                    "imagen": "",
-                    "temperatura_maquina": 80,
-                    "temperatura_ambiente": 34
-                }
+                "temperatura_ambiente": 30
             }
         }
     },
-    "091": {
-        "imanes": [
-            {
-                "id": "1222",
-                "tipo": "x"
-            },
-            {
-                "id": "1222",
-                "tipo": "x"
+    "maquina x": {
+        "fechas": {
+            "25/11/2024": {
+                "imagen": "static/Thermography-Threshold-752x277.jpg",
+                "temperatura_maquina": 100,
+                "temperatura_ambiente": 22
             }
-        ]
+        },
+        "Especificaciones": "maquina X modelo\r\n"
+    },
+    "maquina z": {
+        "Especificaciones": {},
+        "fechas": {
+            "26/11/2024": {
+                "imagen": "static/img.py",
+                "temperatura_maquina": 90,
+                "temperatura_ambiente": 30
+            }
+        }
+    },
+    "maquina x2": {
+        "Especificaciones": {},
+        "fechas": {
+            "27/11/2024": {
+                "imagen": "static/Thermography-Threshold-752x277.jpg",
+                "temperatura_maquina": 23,
+                "temperatura_ambiente": 45
+            }
+        }
+    },
+    "maquina w": {
+        "Especificaciones": {},
+        "fechas": {
+            "28/12/2025": {
+                "imagen": "static/istockphoto-815518350-1024x1024.jpg",
+                "temperatura_maquina": 1222,
+                "temperatura_ambiente": 22
+            }
+        }
     }
 }

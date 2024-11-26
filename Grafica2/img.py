@@ -6,7 +6,36 @@ import io
 from datetime import datetime
 import cv2
 import numpy as np
+
 app = Flask(__name__)
+
+def cargar_base_de_datos():
+    """Cargar la base de datos inicial"""
+    try:
+        with open('base_de_datos.json', 'r') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {}
+
+data = cargar_base_de_datos()
+@app.route('/ver_imagen', methods=['GET'])
+def ver_imagen():
+    maquina = request.args.get('maquina')
+    fecha = request.args.get('fecha')
+
+    if not all([maquina, fecha]):
+        return jsonify({'message': 'Máquina y fecha son requeridas'}), 400
+
+    maquina_data = data.get(maquina, {})
+    imagen_data = maquina_data.get('fechas', {}).get(fecha, {})
+    especificaciones = maquina_data.get('Especificaciones', {})
+
+    if not imagen_data:
+        return jsonify({'message': 'Imagen no encontrada'}), 404
+
+    ruta_imagen = imagen_data.get('imagen')
+
+    return render_template('ver_imagen.html', ruta_imagen=ruta_imagen, imagen_data=imagen_data, maquina=maquina, fecha=fecha, especificaciones=especificaciones)
 
 @app.route('/seleccionar_imagen', methods=['GET'])
 def seleccionar_imagen():
@@ -82,19 +111,13 @@ def procesar_imagen():
         return jsonify({'message': 'Imagen no encontrada'}), 404
 
     ruta_imagen = imagen_data.get('imagen')
-    resultados = escalador(ruta_imagen)  # Llama a la función escalador para procesar la imagen
+    resultados = escalador(ruta_imagen)
+
+    if resultados["analizado"] == 0:
+        return jsonify({'message': 'Error en el procesamiento de la imagen. Verifica la ruta proporcionada.'}), 500
 
     return render_template('procesar_imagen.html', resultados=resultados)
 
-def cargar_base_de_datos():
-    """Cargar la base de datos inicial"""
-    try:
-        with open('base_de_datos.json', 'r') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return {}
-
-data = cargar_base_de_datos()
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -115,22 +138,26 @@ def menu():
 def ver_maquinas():
     """Renderiza la página con los datos de las máquinas"""
     return render_template('index.html', data=data)
-
 @app.route('/agregar_imagen', methods=['POST', 'GET'])
 def agregar_imagen():
-    """Maneja la adición de nuevas imágenes y especificaciones"""
     if request.method == 'GET':
         return render_template('agregar_imagen.html')
     
     maquina = request.form.get('maquina')
     fecha = request.form.get('fecha')  # Fecha en formato día/mes/año
-    ruta_imagen = request.form.get('ruta_imagen')
+    ruta_imagen = request.files.get('ruta_imagen')
     temperatura_maquina = request.form.get('temperatura_maquina')
     temperatura_ambiente = request.form.get('temperatura_ambiente')
     especificaciones = request.form.get('especificaciones')
 
     if not all([maquina, fecha, ruta_imagen, temperatura_maquina, temperatura_ambiente]):
         return jsonify({'message': 'Todos los campos son requeridos'}), 400
+
+    # Guardar la imagen en la carpeta 'static'
+    ruta_imagen.save(f'static/{ruta_imagen.filename}')
+
+    # Actualizar la ruta de la imagen para que apunte a la carpeta 'static'
+    ruta_imagen_path = f'static/{ruta_imagen.filename}'
 
     # Convertir la fecha a un objeto datetime para garantizar el formato correcto
     try:
@@ -148,7 +175,7 @@ def agregar_imagen():
 
     # Agregar los datos de la imagen y las temperaturas
     maquina_data['fechas'][fecha_str] = {
-        'imagen': ruta_imagen,
+        'imagen': ruta_imagen_path,
         'temperatura_maquina': int(temperatura_maquina),
         'temperatura_ambiente': int(temperatura_ambiente)
     }
@@ -158,26 +185,6 @@ def agregar_imagen():
         json.dump(data, f, indent=4)
 
     return jsonify({'message': 'Datos agregados exitosamente'})
-
-@app.route('/ver_imagen', methods=['GET'])
-def ver_imagen():
-    """Renderiza la página con los detalles de una imagen específica"""
-    maquina = request.args.get('maquina')
-    fecha = request.args.get('fecha')
-
-    if not all([maquina, fecha]):
-        return jsonify({'message': 'Máquina y fecha son requeridas'}), 400
-
-    maquina_data = data.get(maquina, {})
-    imagen_data = maquina_data.get('fechas', {}).get(fecha, {})
-    especificaciones = maquina_data.get('Especificaciones', {})
-
-    if not imagen_data:
-        return jsonify({'message': 'Imagen no encontrada'}), 404
-
-    ruta_imagen = imagen_data.get('imagen')
-
-    return render_template('imagen.html', ruta_imagen=ruta_imagen, imagen_data=imagen_data, maquina=maquina, fecha=fecha, especificaciones=especificaciones)
 
 @app.route('/editar_maquina/<maquina>', methods=['GET', 'POST'])
 def editar_maquina(maquina):
