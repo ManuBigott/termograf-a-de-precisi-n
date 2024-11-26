@@ -7,10 +7,12 @@ def lectura(archivo):
         datos=json.load(archivo_json)
         print(datos['Maquina_1']['fechas']['10-11-2024']['imagen'])
         return datos
+    
 def Carpeta_original(archivos):
     carpetas_imagenes=archivos[-1]
     ruta=os.path.abspath(carpetas_imagenes)
     return os.listdir(carpetas_imagenes),ruta
+
 def rutas_carpetas_imagenes(carpetas):
     combo=[]
     for carpeta in carpetas:
@@ -20,6 +22,7 @@ def rutas_carpetas_imagenes(carpetas):
         imagenes_carpeta=nombre_elementos(ruta_elementos_carpetas)
         combo.append(imagenes_carpeta)
     return combo
+
 def nombre_elementos(rutas):
     rutas_imagen=[]
     imagenes=os.listdir(rutas)
@@ -27,6 +30,7 @@ def nombre_elementos(rutas):
         rutas_imagenes=rutas+'/'+imagen
         rutas_imagen.append(rutas_imagenes)
     return rutas_imagen
+
 def muestreo(imagenes):
     print(imagenes,end='\n\n') 
     for entrada in imagenes:
@@ -35,6 +39,7 @@ def muestreo(imagenes):
             cv2.imshow("Imagen",imagen)
             cv2.waitKey(0)
         cv2.destroyAllWindows()
+
 def agregado(base,imagenes):
     inicializado='1/1/2023'
     cont=-1
@@ -47,11 +52,13 @@ def agregado(base,imagenes):
             formato=datetime.datetime.strftime(fecha_actual,'%d/%m/%Y')
             base['Maquina_1']['fechas'][formato]={'imagen':mediciones}
     return base
+
 def cargado(archivo):
-    with open ('base_de_datos.json','w') as dicc:
+    with open ('manejado/base_de_datos.json','w') as dicc:
         json.dump(base,dicc,indent=4)
-        print("Exportado")     
-base=lectura('base_de_datos.json')
+        print("Exportado")
+
+base=lectura('manejado/base_de_datos.json')
 carpetas,ruta_madre=Carpeta_original(os.listdir())
 print(carpetas)
 imagenes=rutas_carpetas_imagenes(carpetas)
