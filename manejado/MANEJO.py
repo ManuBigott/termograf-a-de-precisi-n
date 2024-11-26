@@ -35,7 +35,7 @@ def muestreo(imagenes):
             cv2.imshow("Imagen",imagen)
             cv2.waitKey(0)
         cv2.destroyAllWindows()
-def cargado(base,imagenes):
+def agregado(base,imagenes):
     inicializado='1/1/2023'
     cont=-1
     for capitulo in imagenes:
@@ -45,11 +45,17 @@ def cargado(base,imagenes):
             dia=datetime.timedelta(days=cont)
             fecha_actual=fecha_inicial+dia
             formato=datetime.datetime.strftime(fecha_actual,'%d/%m/%Y')
-            base['Maquina_1']['fechas'][formato]=mediciones
-    print(base)
+            base['Maquina_1']['fechas'][formato]={'imagen':mediciones}
+    return base
+def cargado(archivo):
+    with open ('base_de_datos','w') as dicc:
+        json.dump(base,dicc,indent=4)
+        print("Exportado")     
 base=lectura('base_de_datos')
 carpetas,ruta_madre=Carpeta_original(os.listdir())
 print(carpetas)
 imagenes=rutas_carpetas_imagenes(carpetas)
+
 #muestreo(imagenes)
-cargado(base,imagenes)
+archivito=agregado(base,imagenes)
+cargado(archivito)

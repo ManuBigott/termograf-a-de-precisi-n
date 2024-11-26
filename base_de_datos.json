@@ -16,5 +16,15 @@
                 "temperatura_ambiente": 31
             }
         }
+    },
+    "Maquina3": {
+        "Especificaciones": {},
+        "fechas": {
+            "01/11/2025": {
+                "imagen": "C:\\\\Users\\\\Usuario\\\\OneDrive\\\\Desktop\\\\PROYECTO\\\\Termograf-a\\\\MANEJADO\\\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/Fan/f095.bmp",
+                "temperatura_maquina": 54,
+                "temperatura_ambiente": 49
+            }
+        }
     }
 }
