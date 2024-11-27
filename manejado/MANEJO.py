@@ -4,6 +4,7 @@ import os
 import datetime
 import pandas as pd
 import csv
+import numpy as np
 def lectura(archivo):
     with open(archivo) as archivo_json:
         datos=json.load(archivo_json)
@@ -37,14 +38,17 @@ def nombre_elementos(rutas):
 def agregado(base,imagenes,temperatura):
     inicializado='1/1/2023'
     cont=-1
-    for capitulo in imagenes:
-        for mediciones in capitulo:
-            cont+=1
-            fecha_inicial=datetime.datetime.strptime(inicializado,'%d/%m/%Y')
-            dia=datetime.timedelta(days=cont)
-            fecha_actual=fecha_inicial+dia
-            formato=datetime.datetime.strftime(fecha_actual,'%d/%m/%Y')
-            base['Maquina_1']['fechas'][formato]={'imagen':mediciones,'Temperatura':temperatura[cont]}
+    for mediciones in imagenes:
+        cont+=1
+        fecha_inicial=datetime.datetime.strptime(inicializado,'%d/%m/%Y')
+        dia=datetime.timedelta(days=cont)
+        fecha_actual=fecha_inicial+dia
+        formato=datetime.datetime.strftime(fecha_actual,'%d/%m/%Y')
+        if all(float(i)==0 for i in temperatura[cont+1][1:len(temperatura)-1]):
+            base['Maquina_1']['fechas'][formato]={'Nombre':temperatura[cont+1][0],'Rango de Temperatura': 0, 'Directorio':mediciones}
+        else:
+            temperatura_mas_alta=temperatura[cont+1][1:].index(max(temperatura[cont+1][1:]))
+            base['Maquina_1']['fechas'][formato]={'Nombre':temperatura[cont+1][0],'Rango de Temperatura': temperatura[0][temperatura_mas_alta+1], 'Directorio':mediciones,}
     return base
 def cargado(archivo):
     with open ('manejado/base_de_datos.json','w') as dicc:
@@ -52,24 +56,29 @@ def cargado(archivo):
         print("Exportado")     
 def apertura_dataframe(base):
     data=pd.DataFrame.from_dict(base['Maquina_1']['fechas'],orient='index')
-    print(data.head())
+    print(data.head(45))
+    return data
 def movimiento_en_general(directorio_general,imagenes):
-    pass
     ruta_interfaz=directorio_general+'\\Grafica2\\static\\'
+    rutas_llegada=[]
     for carpeta in imagenes:
         for ruta in carpeta:
             lista_ruta=ruta.split('\\')
+            ruta_de_llegada=ruta_interfaz+lista_ruta[-1]
+            rutas_llegada.append(ruta_de_llegada)
             imagen=cv2.imread(ruta)
-            cv2.imwrite(ruta_interfaz+lista_ruta[-1],imagen)
+            cv2.imwrite(ruta_de_llegada,imagen)
     print('Movimiento Exitoso')
-
-
+    return rutas_llegada
+def criterio_de_recorte():
+    pass
 base,temperatura=lectura('manejado/base_de_datos.json')
 directorio_general=os.getcwd()
 directorio=directorio_general+'\\'+'manejado'
 carpetas,ruta_madre=Carpeta_original(os.listdir(directorio))
 imagenes=rutas_carpetas_imagenes(carpetas)
-movimiento_en_general(directorio_general,imagenes)
-#archivito=agregado(base,imagenes,temperatura)
-#cargado(archivito)
-#apertura_dataframe(base)
+rutas_estaticas=movimiento_en_general(directorio_general,imagenes)
+archivito=agregado(base,rutas_estaticas,temperatura)
+cargado(archivito)
+dataframe=apertura_dataframe(base).dropna()
+print(dataframe)
