@@ -10,7 +10,6 @@ def lectura(archivo):
     with open('manejado/dec1.csv',newline='') as f:
         data=csv.reader(f,delimiter=',')
         temperaturas=list(data)
-        print(temperaturas)
     return datos,temperaturas
 def Carpeta_original(archivos):
     print(archivos,end='\n\n')
@@ -23,7 +22,7 @@ def rutas_carpetas_imagenes(carpetas):
     for carpeta in carpetas:
         if '.' in carpeta:
             continue
-        ruta_elementos_carpetas=ruta_madre+'/'+carpeta
+        ruta_elementos_carpetas=ruta_madre+'\\'+carpeta
         imagenes_carpeta=nombre_elementos(ruta_elementos_carpetas)
         combo.append(imagenes_carpeta)
     return combo
@@ -32,7 +31,7 @@ def nombre_elementos(rutas):
     rutas_imagen=[]
     imagenes=os.listdir(rutas)
     for imagen in imagenes:
-        rutas_imagenes=rutas+'/'+imagen
+        rutas_imagenes=rutas+'\\'+imagen
         rutas_imagen.append(rutas_imagenes)
     return rutas_imagen
 def agregado(base,imagenes,temperatura):
@@ -47,18 +46,32 @@ def agregado(base,imagenes,temperatura):
             formato=datetime.datetime.strftime(fecha_actual,'%d/%m/%Y')
             base['Maquina_1']['fechas'][formato]={'imagen':mediciones,'Temperatura':temperatura[cont]}
     return base
-
 def cargado(archivo):
     with open ('manejado/base_de_datos.json','w') as dicc:
         json.dump(base,dicc,indent=4)
         print("Exportado")     
 def apertura_dataframe(base):
     data=pd.DataFrame.from_dict(base['Maquina_1']['fechas'],orient='index')
-    print(data)
+    print(data.head())
+def movimiento_en_general(directorio_general,imagenes):
+    pass
+    ruta_interfaz=directorio_general+'\\Grafica2\\static'
+    for carpeta in imagenes:
+        for ruta in carpeta:
+            print(ruta)
+            lista_ruta=ruta.split('\\')
+            print(lista_ruta)
+            imagen=cv2.imread('imagen',ruta.replace('\\','/'))
+            
+        break
+
+
 base,temperatura=lectura('manejado/base_de_datos.json')
-directorio=os.getcwd()+'\\'+'manejado'
+directorio_general=os.getcwd()
+directorio=directorio_general+'\\'+'manejado'
 carpetas,ruta_madre=Carpeta_original(os.listdir(directorio))
 imagenes=rutas_carpetas_imagenes(carpetas)
-archivito=agregado(base,imagenes,temperatura)
-cargado(archivito)
-apertura_dataframe(base)
+movimiento_en_general(directorio_general,imagenes)
+#archivito=agregado(base,imagenes,temperatura)
+#cargado(archivito)
+#apertura_dataframe(base)
