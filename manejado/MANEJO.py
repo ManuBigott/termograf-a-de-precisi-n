@@ -3,15 +3,19 @@ import cv2
 import os
 import datetime
 import pandas as pd
+import csv
 def lectura(archivo):
     with open(archivo) as archivo_json:
         datos=json.load(archivo_json)
-        return datos
+    with open('manejado/dec1.csv',newline='') as f:
+        data=csv.reader(f,delimiter=',')
+        temperaturas=list(data)
+        print(temperaturas)
+        return datos,temperaturas
 def Carpeta_original(archivos):
     print(archivos,end='\n\n')
     for elm in archivos:
         if not '.' in elm:   
-            carpetas_imagenes=elm
             ruta_imagenes=directorio+'\\'+elm
             return os.listdir(ruta_imagenes),ruta_imagenes
 def rutas_carpetas_imagenes(carpetas):
@@ -30,7 +34,7 @@ def nombre_elementos(rutas):
         rutas_imagenes=rutas+'\\'+imagen
         rutas_imagen.append(rutas_imagenes)
     return rutas_imagen
-def agregado(base,imagenes):
+def agregado(base,imagenes,temperatura):
     inicializado='1/1/2023'
     cont=-1
     for capitulo in imagenes:
@@ -49,10 +53,13 @@ def cargado(archivo):
 def apertura_dataframe(base):
     data=pd.DataFrame.from_dict(base['Maquina_1']['fechas'],orient='index')
     print(data)
-base=lectura('manejado/base_de_datos.json')
+base,temperatura=lectura('manejado/base_de_datos.json')
+print(len(base),len(temperatura),end='\n\n')
 directorio=os.getcwd()+'\\'+'manejado'
 carpetas,ruta_madre=Carpeta_original(os.listdir(directorio))
 imagenes=rutas_carpetas_imagenes(carpetas)
-archivito=agregado(base,imagenes)
+print(len(imagenes),end='\n\n')
+archivito=agregado(base,imagenes,temperatura)
 cargado(archivito)
+
 apertura_dataframe(base)
