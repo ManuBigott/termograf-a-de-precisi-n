@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-arch = pd.read_csv("dec1.csv")
-print(arch.head(10))
+arch = pd.read_csv("Procesamiento de Imagenes/Ejemplo de seguimiento/dec1.csv")
+print(arch)
 fig = plt.figure()
 fig.clf()
 ax = fig.subplots(2,2)
@@ -27,4 +27,4 @@ ax[1,1].set_ylabel('% entre 0 - 10 grados')
 ax[1,1].set_title('0 - 10')
  
 fig.tight_layout()
-fig.show()     
+plt.show()     
