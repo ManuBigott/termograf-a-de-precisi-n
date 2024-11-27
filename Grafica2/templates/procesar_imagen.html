@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados del Análisis de Imagen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 10px 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .results {
+            margin-top: 20px;
+        }
+        .results p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Resultados del Análisis de Imagen</h1>
+    </header>
+    <div class="container">
+        <div class="results">
+            <p><strong>40 - 50:</strong> {{ resultados["40_50"] }}%</p>
+            <p><strong>20 - 30:</strong> {{ resultados["20_30"] }}%</p>
+            <p><strong>0 - 10:</strong> {{ resultados["0_10"] }}%</p>
+            <p><strong>Se analizó:</strong> {{ resultados["analizado"] }}% de la imagen</p>
+        </div>
+        <a href="/">Volver al Menú Principal</a>
+    </div>
+    <footer>
+        <p>Creado por Nicanor Hermoso, Giovanni Omogrosso, Alexander Alvarado, Manuel Morales, Gabriel Torralba y Harold Angarita</p>
+    </footer>
+</body>
+</html>
+
