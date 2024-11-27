@@ -208,8 +208,8 @@ def agregar_imagen():
     # Agregar los datos de la imagen y las temperaturas
     maquina_data['fechas'][fecha_str] = {
         'imagen': ruta_imagen_path,
-        'temperatura_maquina': float(temperatura_maquina),
-        'temperatura_ambiente': float(temperatura_ambiente)
+        'temperatura_maquina': str(temperatura_maquina),
+        'temperatura_ambiente': str(temperatura_ambiente)
     }
 
     # Guardar la base de datos actualizada
