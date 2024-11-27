@@ -87,25 +87,29 @@ data_limpia=limpieza(df,umbral=5)
 data_limpia.dropna(axis=0,inplace=True)
 figura=plt.figure()
 figura.clf()
+figura = plt.figure(figsize=(15, 10))
 ax = figura.subplots(2,2)
 indices=list(data_limpia.index)
+
 print(data_limpia)
-ax[0,0].plot(indices,data_limpia["Rango40-50"].astype(float),"o",color = "red")
+
+ax[0,0].plot(list(range(len(indices))),data_limpia["Rango40-50"].astype(float),"o",color = "red")
 ax[0,0].set_xlabel('Tiempo')
 ax[0,0].set_ylabel('% entre Rango de 40 - 50 grados')
 ax[0,0].set_title('Rango de 40 - 50')
 
-ax[0,1].plot(indices,data_limpia["Rango30-40"].astype(float),"o",color = "blue")
+
+ax[0,1].plot(list(range(len(indices))),data_limpia["Rango30-40"].astype(float),"o",color = "blue")
 ax[0,1].set_xlabel('Tiempo')
 ax[0,1].set_ylabel('% entre Rango de 30 - 40 grados')
 ax[0,1].set_title('Rango de 30 - 40')
 
-ax[1,0].plot(indices,data_limpia["Rango20-30"].astype(float),"o",color = "yellow")
+ax[1,0].plot(list(range(len(indices))),data_limpia["Rango20-30"].astype(float),"o",color = "yellow")
 ax[1,0].set_xlabel('Tiempo')
 ax[1,0].set_ylabel('% entre Rango de 20 - 30 grados')
 ax[1,0].set_title('Rango de 20 - 30')
 
-ax[1,1].plot(indices,data_limpia["Rango10-20"].astype(float),"o",color = "green")
+ax[1,1].plot(list(range(len(indices))),data_limpia["Rango10-20"].astype(float),"o",color = "green")
 ax[1,1].set_xlabel("Tiempo")
 ax[1,1].set_ylabel('% entre Rango de 10 - 20 grados')
 ax[1,1].set_title('Rango de 10 - 20')
