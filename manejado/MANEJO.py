@@ -73,6 +73,8 @@ def movimiento_en_general(directorio_general,imagenes):
 def limpieza(df,umbral=5):
     Data_filtro=df[df['%Calidad'].astype(float)>=umbral]
     return Data_filtro
+def cargado_dataframe(data_limpia):
+    data_limpia.to_csv('Base_de_datos_limpia.csv',index=False)
 base,temperatura=lectura('manejado/base_de_datos.json')
 directorio_general=os.getcwd()
 directorio=directorio_general+'\\'+'manejado'
@@ -85,6 +87,8 @@ dataframe=apertura_dataframe(base)
 df=dataframe.drop_duplicates()
 data_limpia=limpieza(df,umbral=5)
 data_limpia.dropna(axis=0,inplace=True)
+cargado_dataframe(data_limpia)
+
 figura=plt.figure()
 figura.clf()
 figura = plt.figure(figsize=(15, 10))
