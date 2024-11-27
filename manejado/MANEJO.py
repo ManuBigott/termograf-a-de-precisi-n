@@ -46,10 +46,10 @@ def agregado(base,imagenes,temperatura):
         fecha_actual=fecha_inicial+dia
         formato=datetime.datetime.strftime(fecha_actual,'%d/%m/%Y')
         if all(float(i)==0 for i in temperatura[cont+1][1:len(temperatura)-1]):
-            base['Maquina_1']['fechas'][formato]={'Nombre':temperatura[cont+1][0],'Rango de Temperatura': np.nan,'Rango de 40 - 50':temperatura[cont+1][1],'Rango de 30 - 40':temperatura[cont+1][2],'Rango de 20 - 30':temperatura[cont+1][3],'Rango de 10 - 20':temperatura[cont+1][4],'% De Calidad de la imagen': temperatura[cont+1][-1],'Directorio':mediciones}
+            base['Maquina_1']['fechas'][formato]={'Nombre':temperatura[cont+1][0],'RangoT': np.nan,'Rango40-50':temperatura[cont+1][1],'Rango30-40':temperatura[cont+1][2],'Rango20-30':temperatura[cont+1][3],'Rango10-20':temperatura[cont+1][4],'%Calidad': temperatura[cont+1][-1],'Directorio':mediciones}
         else:
             temperatura_mas_alta=temperatura[cont+1][1:].index(max(temperatura[cont+1][1:]))
-            base['Maquina_1']['fechas'][formato]={'Nombre':temperatura[cont+1][0],'Rango de Temperatura': temperatura[0][temperatura_mas_alta+1],'Rango de 40 - 50':temperatura[cont+1][1],'Rango de 30 - 40':temperatura[cont+1][2],'Rango de 20 - 30':temperatura[cont+1][3],'Rango de 10 - 20':temperatura[cont+1][4],'% De Calidad de la imagen': temperatura[cont+1][-1],'Directorio':mediciones}
+            base['Maquina_1']['fechas'][formato]={'Nombre':temperatura[cont+1][0],'RangoT': temperatura[0][temperatura_mas_alta+1],'Rango40-50':temperatura[cont+1][1],'Rango30-40':temperatura[cont+1][2],'Rango20-30':temperatura[cont+1][3],'Rango10-20':temperatura[cont+1][4],'%Calidad': temperatura[cont+1][-1],'Directorio':mediciones}
     return base
 def cargado(archivo):
     with open (archivo,'w') as dicc:
@@ -71,7 +71,7 @@ def movimiento_en_general(directorio_general,imagenes):
     print('Movimiento Exitoso')
     return rutas_llegada
 def limpieza(df,umbral=5):
-    Data_filtro=df[df['% De Calidad de la imagen'].astype(float)>=umbral]
+    Data_filtro=df[df['%Calidad'].astype(float)>=umbral]
     return Data_filtro
 base,temperatura=lectura('manejado/base_de_datos.json')
 directorio_general=os.getcwd()
@@ -83,9 +83,32 @@ archivito=agregado(base,rutas_estaticas,temperatura)
 cargado('manejado/base_de_datos.json')
 dataframe=apertura_dataframe(base)
 df=dataframe.drop_duplicates()
-print(df.head(50))
 data_limpia=limpieza(df,umbral=5)
 data_limpia.dropna(axis=0,inplace=True)
+figura=plt.figure()
+figura.clf()
+ax = figura.subplots(2,2)
+indices=list(data_limpia.index)
 print(data_limpia)
-plt.plot(data_limpia['Rango de 30 - 40'])
+ax[0,0].plot(indices,data_limpia["Rango40-50"].astype(float),"o",color = "red")
+ax[0,0].set_xlabel('Tiempo')
+ax[0,0].set_ylabel('% entre Rango de 40 - 50 grados')
+ax[0,0].set_title('Rango de 40 - 50')
+
+ax[0,1].plot(indices,data_limpia["Rango30-40"].astype(float),"o",color = "blue")
+ax[0,1].set_xlabel('Tiempo')
+ax[0,1].set_ylabel('% entre Rango de 30 - 40 grados')
+ax[0,1].set_title('Rango de 30 - 40')
+
+ax[1,0].plot(indices,data_limpia["Rango20-30"].astype(float),"o",color = "yellow")
+ax[1,0].set_xlabel('Tiempo')
+ax[1,0].set_ylabel('% entre Rango de 20 - 30 grados')
+ax[1,0].set_title('Rango de 20 - 30')
+
+ax[1,1].plot(indices,data_limpia["Rango10-20"].astype(float),"o",color = "green")
+ax[1,1].set_xlabel("Tiempo")
+ax[1,1].set_ylabel('% entre Rango de 10 - 20 grados')
+ax[1,1].set_title('Rango de 10 - 20')
+
+figura.tight_layout()
 plt.show()

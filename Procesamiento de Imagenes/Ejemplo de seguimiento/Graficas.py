@@ -27,4 +27,4 @@ ax[1,1].set_ylabel('% entre 0 - 10 grados')
 ax[1,1].set_title('0 - 10')
  
 fig.tight_layout()
-fig.show()     
+plt.show()     
