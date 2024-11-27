@@ -6,9 +6,7 @@ import io
 from datetime import datetime
 import cv2
 import numpy as np
-
 app = Flask(__name__)
-
 def cargar_base_de_datos():
     """Cargar la base de datos inicial"""
     try:
@@ -16,7 +14,6 @@ def cargar_base_de_datos():
             return json.load(f)
     except FileNotFoundError:
         return {}
-
 data = cargar_base_de_datos()
 @app.route('/ver_imagen', methods=['GET'])
 def ver_imagen():
@@ -36,7 +33,6 @@ def ver_imagen():
     ruta_imagen = imagen_data.get('imagen')
 
     return render_template('ver_imagen.html', ruta_imagen=ruta_imagen, imagen_data=imagen_data, maquina=maquina, fecha=fecha, especificaciones=especificaciones)
-
 @app.route('/seleccionar_imagen', methods=['GET'])
 def seleccionar_imagen():
     """Renderiza la página para seleccionar la imagen a procesar"""
@@ -53,12 +49,19 @@ def escalador(ruta):
     Rojo_intensoL, Rojo_intensoH = np.array([120, 50, 50], np.uint8), np.array([130, 255, 255], np.uint8)
 
     img = cv2.imread(ruta, -1)
+    if img is None:
+        print('No se pudo leer la imagen desde la ruta:', ruta)
+        return {'error': 'No se pudo leer la imagen'}
+    print('Imagen leída correctamente')
+
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    print('Conversión a HSV realizada')
 
     mask = cv2.inRange(hsv, RojoL, RojoH)
     mask1 = cv2.inRange(hsv, AmarilloL, AmarilloH)
     mask2 = cv2.inRange(hsv, CianL, CianH)
     T = mask.shape
+    print(f'Tamaño de la máscara: {T}')
     lista = []
     lista1 = []
     lista2 = []
@@ -89,55 +92,71 @@ def escalador(ruta):
     b = T[0] * T[1] - b1
     c = T[0] * T[1] - c1
 
+    analizado = ((a + b + c) / (T[0] * T[1])) * 100
+    print(f'Valor de analizado: {analizado}')
+    if analizado == 0:
+        print('Error en el cálculo del valor analizado')
+
     return {
         "40_50": (a / (a + b + c)) * 100,
         "20_30": (b / (a + b + c)) * 100,
         "0_10": (c / (a + b + c)) * 100,
-        "analizado": ((a + b + c) / (T[0] * T[1])) * 100
+        "analizado": analizado
     }
+
+    
 # Nueva ruta para procesar una imagen y obtener los resultados del análisis
 @app.route('/procesar_imagen', methods=['GET'])
 def procesar_imagen():
     maquina = request.args.get('maquina')
     fecha = request.args.get('fecha')
+    print(f'Recibidos: maquina={maquina}, fecha={fecha}')  # Depuración
 
     if not all([maquina, fecha]):
+        print('Error: Máquina y fecha son requeridas')  # Depuración
         return jsonify({'message': 'Máquina y fecha son requeridas'}), 400
 
     maquina_data = data.get(maquina, {})
     imagen_data = maquina_data.get('fechas', {}).get(fecha, {})
+    print(f'Datos obtenidos: maquina_data={maquina_data}, imagen_data={imagen_data}')  # Depuración
 
     if not imagen_data:
+        print('Error: Imagen no encontrada')  # Depuración
         return jsonify({'message': 'Imagen no encontrada'}), 404
 
     ruta_imagen = imagen_data.get('imagen')
+    print(f'Ruta de la imagen: {ruta_imagen}')  # Depuración
+
     resultados = escalador(ruta_imagen)
+    print(f'Resultados del escalador: {resultados}')  # Depuración
+
+    if 'analizado' not in resultados:
+        print('Error: Clave "analizado" no encontrada en los resultados')  # Depuración
+        return jsonify({'message': 'Error en el procesamiento de la imagen. Verifica la ruta proporcionada.'}), 500
 
     if resultados["analizado"] == 0:
+        print('Error: Valor de "analizado" es 0')  # Depuración
         return jsonify({'message': 'Error en el procesamiento de la imagen. Verifica la ruta proporcionada.'}), 500
 
     return render_template('procesar_imagen.html', resultados=resultados)
-
 
 @app.errorhandler(404)
 def page_not_found(e):
     """Manejar errores 404"""
     return render_template('error.html', mensaje="Página no encontrada"), 404
-
 @app.errorhandler(500)
 def internal_error(e):
     """Manejar errores 500"""
     return render_template('error.html', mensaje="Error interno del servidor"), 500
-
 @app.route('/')
 def menu():
     """Renderiza el menú principal"""
     return render_template('menu.html')
-
 @app.route('/ver_maquinas', methods=['GET'])
 def ver_maquinas():
     """Renderiza la página con los datos de las máquinas"""
     return render_template('index.html', data=data)
+
 @app.route('/agregar_imagen', methods=['POST', 'GET'])
 def agregar_imagen():
     if request.method == 'GET':
@@ -153,11 +172,21 @@ def agregar_imagen():
     if not all([maquina, fecha, ruta_imagen, temperatura_maquina, temperatura_ambiente]):
         return jsonify({'message': 'Todos los campos son requeridos'}), 400
 
+    # Verificar la existencia de la carpeta 'static'
+    import os
+    if not os.path.exists('static'):
+        os.makedirs('static')
+
     # Guardar la imagen en la carpeta 'static'
-    ruta_imagen.save(f'static/{ruta_imagen.filename}')
+    try:
+        ruta_imagen.save(f'static/{ruta_imagen.filename}')
+    except Exception as e:
+        print(f'Error guardando la imagen: {e}')
+        return jsonify({'message': f'Error guardando la imagen: {e}'}), 500
 
     # Actualizar la ruta de la imagen para que apunte a la carpeta 'static'
     ruta_imagen_path = f'static/{ruta_imagen.filename}'
+    print(f'Imagen guardada en: {ruta_imagen_path}')  # Depuración
 
     # Convertir la fecha a un objeto datetime para garantizar el formato correcto
     try:
@@ -271,11 +300,10 @@ def graficar_temperaturas():
     plt.close()
 
     return render_template('grafica.html', graph_url=graph_url)
-
 @app.route('/seleccionar_maquina_editar', methods=['GET'])
 def seleccionar_maquina_editar():
     """Renderiza la página para seleccionar la máquina a editar"""
     return render_template('seleccionar_maquina_editar.html', data=data)
-
 if __name__ == '__main__':
     app.run(debug=True)
+
