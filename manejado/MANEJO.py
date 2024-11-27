@@ -46,9 +46,8 @@ def cargado(archivo):
     with open ('manejado/base_de_datos.json','w') as dicc:
         json.dump(base,dicc,indent=4)
         print("Exportado")     
-def apertura_dataframe(archivo):
-    ruta_json=directorio+'\\'+archivo
-    data=pd.read_json(ruta_json)
+def apertura_dataframe(base):
+    data=pd.DataFrame.from_dict(base['Maquina_1']['fechas'],orient='index')
     print(data)
 base=lectura('manejado/base_de_datos.json')
 directorio=os.getcwd()+'\\'+'manejado'
@@ -56,4 +55,4 @@ carpetas,ruta_madre=Carpeta_original(os.listdir(directorio))
 imagenes=rutas_carpetas_imagenes(carpetas)
 archivito=agregado(base,imagenes)
 cargado(archivito)
-apertura_dataframe('base_de_datos.json')
+apertura_dataframe(base)
