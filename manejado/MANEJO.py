@@ -5,6 +5,7 @@ import datetime
 import pandas as pd
 import csv
 import numpy as np
+import matplotlib 
 def lectura(archivo):
     with open(archivo) as archivo_json:
         datos=json.load(archivo_json)
@@ -45,10 +46,10 @@ def agregado(base,imagenes,temperatura):
         fecha_actual=fecha_inicial+dia
         formato=datetime.datetime.strftime(fecha_actual,'%d/%m/%Y')
         if all(float(i)==0 for i in temperatura[cont+1][1:len(temperatura)-1]):
-            base['Maquina_1']['fechas'][formato]={'Nombre':temperatura[cont+1][0],'Rango de Temperatura': 0, 'Directorio':mediciones}
+            base['Maquina_1']['fechas'][formato]={'Nombre':temperatura[cont+1][0],'Rango de Temperatura': np.nan,'Rango de 40 - 50':temperatura[cont+1][1],'Rango de 30 - 40':temperatura[cont+1][2],'Rango de 20 - 30':temperatura[cont+1][3],'Rango de 10 - 20':temperatura[cont+1][4],'% De Calidad de la imagen': temperatura[cont+1][-1],'Directorio':mediciones}
         else:
             temperatura_mas_alta=temperatura[cont+1][1:].index(max(temperatura[cont+1][1:]))
-            base['Maquina_1']['fechas'][formato]={'Nombre':temperatura[cont+1][0],'Rango de Temperatura': temperatura[0][temperatura_mas_alta+1], 'Directorio':mediciones,}
+            base['Maquina_1']['fechas'][formato]={'Nombre':temperatura[cont+1][0],'Rango de Temperatura': temperatura[0][temperatura_mas_alta+1],'Rango de 40 - 50':temperatura[cont+1][1],'Rango de 30 - 40':temperatura[cont+1][2],'Rango de 20 - 30':temperatura[cont+1][3],'Rango de 10 - 20':temperatura[cont+1][4],'% De Calidad de la imagen': temperatura[cont+1][-1],'Directorio':mediciones}
     return base
 def cargado(archivo):
     with open ('manejado/base_de_datos.json','w') as dicc:
@@ -56,7 +57,6 @@ def cargado(archivo):
         print("Exportado")     
 def apertura_dataframe(base):
     data=pd.DataFrame.from_dict(base['Maquina_1']['fechas'],orient='index')
-    print(data.head(45))
     return data
 def movimiento_en_general(directorio_general,imagenes):
     ruta_interfaz=directorio_general+'\\Grafica2\\static\\'
@@ -70,8 +70,13 @@ def movimiento_en_general(directorio_general,imagenes):
             cv2.imwrite(ruta_de_llegada,imagen)
     print('Movimiento Exitoso')
     return rutas_llegada
-def criterio_de_recorte():
-    pass
+def Limpieza_1(porcentaje):
+    if not isinstance(porcentaje,int)<5:
+        return np.nan
+    return porcentaje
+def limpieza(df,umbral=5):
+    Data_filtro=df[df['% De Calidad de la imagen']>=umbral]
+    return Data_filtro
 base,temperatura=lectura('manejado/base_de_datos.json')
 directorio_general=os.getcwd()
 directorio=directorio_general+'\\'+'manejado'
@@ -80,5 +85,11 @@ imagenes=rutas_carpetas_imagenes(carpetas)
 rutas_estaticas=movimiento_en_general(directorio_general,imagenes)
 archivito=agregado(base,rutas_estaticas,temperatura)
 cargado(archivito)
-dataframe=apertura_dataframe(base).dropna()
-print(dataframe)
+dataframe=apertura_dataframe(base)
+df=dataframe.drop_duplicates()
+print(df.head(50))
+#df['% De Calidad de la imagen']=df['% De Calidad de la imagen'].map(Limpieza)
+data_limpia=limpieza(df,umbral=5)
+print(df.head(50))
+
+

@@ -1,5 +1,5 @@
 import pandas as pd
-info = pd.read_csv("dec1.csv")
+info = pd.read_csv("manejado/dec1.csv")
 def Limpieza(df, umbral_ceros=5):
 
 
