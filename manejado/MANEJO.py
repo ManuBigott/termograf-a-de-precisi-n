@@ -2,18 +2,17 @@ import json
 import cv2
 import os
 import datetime
-import pandas as pd
 def lectura(archivo):
     with open(archivo) as archivo_json:
         datos=json.load(archivo_json)
+        print(datos['Maquina_1']['fechas']['10-11-2024']['imagen'])
         return datos
+    
 def Carpeta_original(archivos):
-    print(archivos,end='\n\n')
-    for elm in archivos:
-        if not '.' in elm:   
-            carpetas_imagenes=elm
-            ruta_imagenes=directorio+'\\'+elm
-            return os.listdir(ruta_imagenes),ruta_imagenes
+    carpetas_imagenes=archivos[-1]
+    ruta=os.path.abspath(carpetas_imagenes)
+    return os.listdir(carpetas_imagenes),ruta
+
 def rutas_carpetas_imagenes(carpetas):
     combo=[]
     for carpeta in carpetas:
@@ -31,6 +30,16 @@ def nombre_elementos(rutas):
         rutas_imagenes=rutas+'/'+imagen
         rutas_imagen.append(rutas_imagenes)
     return rutas_imagen
+
+def muestreo(imagenes):
+    print(imagenes,end='\n\n') 
+    for entrada in imagenes:
+        for visual in entrada:
+            imagen=cv2.imread(visual)
+            cv2.imshow("Imagen",imagen)
+            cv2.waitKey(0)
+        cv2.destroyAllWindows()
+
 def agregado(base,imagenes):
     inicializado='1/1/2023'
     cont=-1
@@ -47,14 +56,13 @@ def agregado(base,imagenes):
 def cargado(archivo):
     with open ('manejado/base_de_datos.json','w') as dicc:
         json.dump(base,dicc,indent=4)
-        print("Exportado")     
-def apertura_dataframe(base):
-    data=pd.DataFrame.from_dict(base['Maquina_1']['fechas'],orient='index')
-    print(data)
-base=lectura('manejado/base_de_datos.json')
-directorio=os.getcwd()+'\\'+'manejado'
-carpetas,ruta_madre=Carpeta_original(os.listdir(directorio))
+        print("Exportado")
+
+base=lectura('manejado/base_de_datos.json') #manejado/
+carpetas,ruta_madre=Carpeta_original(os.listdir())
+print(carpetas)
 imagenes=rutas_carpetas_imagenes(carpetas)
+
+#muestreo(imagenes)
 archivito=agregado(base,imagenes)
 cargado(archivito)
-apertura_dataframe(base)
