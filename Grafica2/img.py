@@ -9,6 +9,7 @@ import numpy as np
 app = Flask(__name__)
 #hola carlota
 #probando git
+## khe peo
 def cargar_base_de_datos():
     """Cargar la base de datos inicial"""
     try:
