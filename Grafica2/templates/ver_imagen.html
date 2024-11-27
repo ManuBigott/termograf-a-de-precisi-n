@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Imagen</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+            text-align: center;
+        }
+        .details {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .especificaciones {
+            text-align: left;
+            margin-top: 20px;
+        }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ver Imagen</h1>
+    </header>
+    <div class="container">
+        <div class="details">
+            <p><strong>Máquina:</strong> {{ maquina }}</p>
+            <p><strong>Fecha:</strong> {{ fecha }}</p>
+            <img src="{{ url_for('static', filename=ruta_imagen.split('static/')[1]) }}" alt="Imagen de la máquina">
+            <p><strong>Temperatura de la Máquina:</strong> {{ imagen_data['temperatura_maquina'] }}°</p>
+            <p><strong>Temperatura del Ambiente:</strong> {{ imagen_data['temperatura_ambiente'] }}°</p>
+            <div class="especificaciones">
+                <h3>Especificaciones:</h3>
+                <p>{{ especificaciones }}</p>
+            </div>
+        </div>
+        <a href="/">Volver al Menú Principal</a>
+    </div>
+    <footer>
+        <p>Creado por Nicanor Hermoso, Giovanni Omogrosso, Alexander Alvarado, Manuel Morales, Gabriel Torralba y Harold Angarita</p>
+    </footer>
+</body>
+</html>
