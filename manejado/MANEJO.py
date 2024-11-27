@@ -70,12 +70,8 @@ def movimiento_en_general(directorio_general,imagenes):
             cv2.imwrite(ruta_de_llegada,imagen)
     print('Movimiento Exitoso')
     return rutas_llegada
-def Limpieza_1(porcentaje):
-    if not isinstance(porcentaje,int)<5:
-        return np.nan
-    return porcentaje
 def limpieza(df,umbral=5):
-    Data_filtro=df[df['% De Calidad de la imagen']>=umbral]
+    Data_filtro=df[df['% De Calidad de la imagen'].astype(float)>=umbral]
     return Data_filtro
 base,temperatura=lectura('manejado/base_de_datos.json')
 directorio_general=os.getcwd()
@@ -88,8 +84,6 @@ cargado(archivito)
 dataframe=apertura_dataframe(base)
 df=dataframe.drop_duplicates()
 print(df.head(50))
-#df['% De Calidad de la imagen']=df['% De Calidad de la imagen'].map(Limpieza)
 data_limpia=limpieza(df,umbral=5)
-print(df.head(50))
-
-
+data_limpia.dropna(axis=0,inplace=True)
+print(data_limpia.describe())
