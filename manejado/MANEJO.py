@@ -55,15 +55,13 @@ def apertura_dataframe(base):
     print(data.head())
 def movimiento_en_general(directorio_general,imagenes):
     pass
-    ruta_interfaz=directorio_general+'\\Grafica2\\static'
+    ruta_interfaz=directorio_general+'\\Grafica2\\static\\'
     for carpeta in imagenes:
         for ruta in carpeta:
-            print(ruta)
             lista_ruta=ruta.split('\\')
-            print(lista_ruta)
-            imagen=cv2.imread('imagen',ruta.replace('\\','/'))
-            
-        break
+            imagen=cv2.imread(ruta)
+            cv2.imwrite(ruta_interfaz+lista_ruta[-1],imagen)
+    print('Movimiento Exitoso')
 
 
 base,temperatura=lectura('manejado/base_de_datos.json')
