@@ -7,6 +7,7 @@ from datetime import datetime
 import cv2
 import numpy as np
 app = Flask(__name__)
+#hola carlota
 def cargar_base_de_datos():
     """Cargar la base de datos inicial"""
     try:
