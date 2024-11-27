@@ -24,11 +24,11 @@ La base de datos se ha organizado y estructurado de manera eficiente y se ha log
 
 ### Objetivos alcanzados
 
--Procesamiento y obtención de información a partir de imágenes termográficas exitosa
--Procesamiento rápido a partir de algoritmo algoritmos de búsqueda secuencial
--Recorte imágenes para mejor resolución
--A partir del algoritmo de búsqueda secuencial se generan también base de datos o estructuras de datos necesario para el preprocesado
--Ordenamiento y depuración de base de datos exitos
+- Procesamiento y obtención de información a partir de imágenes termográficas exitosa
+- Procesamiento rápido a partir de algoritmo algoritmos de búsqueda secuencial
+- Recorte imágenes para mejor resolución
+- A partir del algoritmo de búsqueda secuencial se generan también base de datos o estructuras de datos necesario para el preprocesado
+- Ordenamiento y depuración de base de datos exitos
 
 ### Recursos Utilizados
 Se utilizaron las siguientes librerías:
