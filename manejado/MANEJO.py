@@ -5,7 +5,7 @@ import datetime
 import pandas as pd
 import csv
 import numpy as np
-import matplotlib 
+import matplotlib.pyplot as plt
 def lectura(archivo):
     with open(archivo) as archivo_json:
         datos=json.load(archivo_json)
@@ -52,7 +52,7 @@ def agregado(base,imagenes,temperatura):
             base['Maquina_1']['fechas'][formato]={'Nombre':temperatura[cont+1][0],'Rango de Temperatura': temperatura[0][temperatura_mas_alta+1],'Rango de 40 - 50':temperatura[cont+1][1],'Rango de 30 - 40':temperatura[cont+1][2],'Rango de 20 - 30':temperatura[cont+1][3],'Rango de 10 - 20':temperatura[cont+1][4],'% De Calidad de la imagen': temperatura[cont+1][-1],'Directorio':mediciones}
     return base
 def cargado(archivo):
-    with open ('manejado/base_de_datos.json','w') as dicc:
+    with open (archivo,'w') as dicc:
         json.dump(base,dicc,indent=4)
         print("Exportado")     
 def apertura_dataframe(base):
@@ -80,10 +80,12 @@ carpetas,ruta_madre=Carpeta_original(os.listdir(directorio))
 imagenes=rutas_carpetas_imagenes(carpetas)
 rutas_estaticas=movimiento_en_general(directorio_general,imagenes)
 archivito=agregado(base,rutas_estaticas,temperatura)
-cargado(archivito)
+cargado('manejado/base_de_datos.json')
 dataframe=apertura_dataframe(base)
 df=dataframe.drop_duplicates()
 print(df.head(50))
 data_limpia=limpieza(df,umbral=5)
 data_limpia.dropna(axis=0,inplace=True)
-print(data_limpia.describe())
+print(data_limpia)
+plt.plot(data_limpia['Rango de 30 - 40'])
+plt.show()
