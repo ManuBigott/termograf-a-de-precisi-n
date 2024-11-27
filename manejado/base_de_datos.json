@@ -2,31 +2,6 @@
     "Maquina_1": {
         "Especificaciones": {},
         "fechas": {
-            "10-11-2024": {
-                "imagen": "Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/292.bmp",
-                "temperatura_maquina": 50,
-                "tempetura_ambiente": 30
-            },
-            "11-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 65,
-                "tempetura_ambiente": 28
-            },
-            "12-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 75,
-                "tempetura_ambiente": 31
-            },
-            "13-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 73,
-                "tempetura_ambiente": 30,
-                "14-11-2024": {
-                    "imagen": "",
-                    "temperatura_maquina": 80,
-                    "tempetura_ambiente": 34
-                }
-            },
             "01/01/2023": {
                 "imagen": "C:\\Users\\Usuario\\OneDrive\\Documents\\GitHub\\termografia_de_precision\\manejado\\Thermal image of equipment (Induction Motor) + 40 Ground Truths added/A&B50/291.bmp",
                 "Temperatura": [
@@ -4965,96 +4940,6 @@
                     "0.0",
                     "14.02"
                 ]
-            }
-        }
-    },
-    "Maquina_2": {
-        "Especificaciones": {},
-        "fechas": {
-            "10-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 50,
-                "tempetura_ambiente": 30
-            },
-            "11-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 65,
-                "tempetura_ambiente": 28
-            },
-            "12-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 75,
-                "tempetura_ambiente": 31
-            },
-            "13-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 73,
-                "tempetura_ambiente": 30,
-                "14-11-2024": {
-                    "imagen": "",
-                    "temperatura_maquina": 80,
-                    "tempetura_ambiente": 34
-                }
-            }
-        }
-    },
-    "Maquina_3": {
-        "Especificaciones": {},
-        "fechas": {
-            "10-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 50,
-                "tempetura_ambiente": 30
-            },
-            "11-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 65,
-                "tempetura_ambiente": 28
-            },
-            "12-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 75,
-                "tempetura_ambiente": 31
-            },
-            "13-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 73,
-                "tempetura_ambiente": 30,
-                "14-11-2024": {
-                    "imagen": "",
-                    "temperatura_maquina": 80,
-                    "tempetura_ambiente": 34
-                }
-            }
-        }
-    },
-    "Maquina_4": {
-        "Especificaciones": {},
-        "fechas": {
-            "10-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 50,
-                "tempetura_ambiente": 30
-            },
-            "11-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 65,
-                "tempetura_ambiente": 28
-            },
-            "12-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 75,
-                "tempetura_ambiente": 31
-            },
-            "13-11-2024": {
-                "imagen": "",
-                "temperatura_maquina": 73,
-                "tempetura_ambiente": 30,
-                "14-11-2024": {
-                    "imagen": "",
-                    "temperatura_maquina": 80,
-                    "tempetura_ambiente": 34
-                }
             }
         }
     }
