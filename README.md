@@ -15,7 +15,8 @@ El proyecto tiene como objetivo automatizar un sistema que se realiza manualment
 - Reporta un mensaje sobre cómo debería funcionar de manera óptima y una alerta si pasa los valores permitidos. Junto con posibles reportes sobre el fenómeno que se esta dando.
 
 - Grafica sobre la temperatura que varía a lo largo del tempo con las imágenes del motor tomadas en distintos periodos de tiempo.
-
+### Como acceder al proyecto 
+Descargar el repositorio, abrir la carpeta "MANEJADO" y abrir el archivo manejo.py. La interfaz Gráfica todavía se encuentra en construcción.
 
 ### Avance General
 
